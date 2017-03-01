@@ -1,0 +1,1614 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles/main-style.css"/>
+    <link rel="stylesheet" href="styles/workouts.css"/>
+</head>
+<body>
+<nav class="navbar navbar-default">
+    <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand menu" href="index.html"><img id="logo" src="images/logo.png" alt="logo"/></a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+                <li><a href="#">Нещо? <span class="sr-only">(current)</span></a></li>
+
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle menu" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Тренировки <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="silovi.html">Силови тренировки</a></li>
+                        <li><a href="aerobni.html">Аеробни тренировки</a></li>
+                        <li><a href="kardio.html">Кардио тренировки</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="table-kilokalorii.html">Таблица килокалории</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="#">One more separated link</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle menu" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Хранене <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">1</a></li>
+                        <li><a href="#">2</a></li>
+                        <li><a href="#">3</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="#">Separated link</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="#">One more separated link</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#" class="menu">Регистрация</a></li>
+                <li><a href="#" class="menu">Вход</a></li>
+            </ul>
+        </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+</nav>
+<main class="container">
+    <div class="row">
+        <section class="col-md-9 table-responsive">
+            <article>
+                <h1>Колечество калориите изгорени по време на упражнения</h1>
+                <table class="table">
+                    <thead class="table-striped table-bordered">
+                        <tr class="main-tr">
+                            <th>Дейност, упражнение или спорт (1 час)</th>
+                            <th>60 кг</th>
+                            <th>70 кг</th>
+                            <th>80 кг</th>
+                            <th>90 кг</th>
+                        </tr>
+                    </thead>
+                    <tbody class="table-striped table-bordered">
+                        <tr>
+                            <td>Каране на колело, планинско колоездене</td>
+                            <td>502</td>
+                            <td>598</td>
+                            <td>695</td>
+                            <td>791</td>
+                        </tr>
+                        <tr>
+                            <td>Каране на колело, 16 км/ч, свободно</td>
+                            <td>236</td>
+                            <td>281</td>
+                            <td>327</td>
+                            <td>372</td>
+                        </tr>
+                        <tr>
+                            <td>Каране на колело, 32 км/ч, състезателно</td>
+                            <td>944</td>
+                            <td>1126</td>
+                            <td>1308</td>
+                            <td>1489</td>
+                        </tr>
+                        <tr>
+                            <td>Каране на колело, 16- 19 км/ч, леко</td>
+                            <td>354</td>
+                            <td>422</td>
+                            <td>490</td>
+                            <td>558</td>
+                        </tr>
+                        <tr>
+                            <td>Каране на колело, 19- 22.5 км/ч, умерено</td>
+                            <td>472</td>
+                            <td>563</td>
+                            <td>654</td>
+                            <td>745</td>
+                        </tr>
+                        <tr>
+                            <td>Каране на колело, 22.5- 25.5 км/ч, енергично</td>
+                            <td>590</td>
+                            <td>704</td>
+                            <td>817</td>
+                            <td>931</td>
+                        </tr>
+                        <tr>
+                            <td>Каране на колело, 25.5- 30 км/ч, много бързо</td>
+                            <td>708</td>
+                            <td>844</td>
+                            <td>981</td>
+                            <td>1117</td>
+                        </tr>
+                        <tr>
+                            <td>Каране в кръг</td>
+                            <td>295</td>
+                            <td>352</td>
+                            <td>409</td>
+                            <td>465</td>
+                        </tr>
+                        <tr>
+                            <td>Каране на велоергометър, много леко</td>
+                            <td>177</td>
+                            <td>211</td>
+                            <td>245</td>
+                            <td>279</td>
+                        </tr>
+                        <tr>
+                            <td>Каране на велоергометър, леко</td>
+                            <td>325</td>
+                            <td>387</td>
+                            <td>449</td>
+                            <td>512</td>
+                        </tr>
+                        <tr>
+                            <td>Каране на велоергометър, умерено</td>
+                            <td>413</td>
+                            <td>493</td>
+                            <td>572</td>
+                            <td>651</td>
+                        </tr>
+                        <tr>
+                            <td>Каране на велоергометър, енергично</td>
+                            <td>620</td>
+                            <td>739</td>
+                            <td>858</td>
+                            <td>977</td>
+                        </tr>
+                        <tr>
+                            <td>Каране на велоергометър, много енергично</td>
+                            <td>738</td>
+                            <td>880</td>
+                            <td>1022</td>
+                            <td>1163</td>
+                        </tr>
+                        <tr>
+                            <td>Художествена гимнастика, енергично,<br>
+                                лицеви опори, коремни преси</td>
+                            <td>472</td>
+                            <td>563</td>
+                            <td>654</td>
+                            <td>745</td>
+                        </tr>
+                        <tr>
+                            <td>Художествена гимнактика, леко</td>
+                            <td>207</td>
+                            <td>246</td>
+                            <td>286</td>
+                            <td>326</td>
+                        </tr>
+                        <tr>
+                            <td>Вдигане на тежести, бодибилдинг, енергично</td>
+                            <td>354</td>
+                            <td>422</td>
+                            <td>490</td>
+                            <td>558</td>
+                        </tr>
+                        <tr>
+                            <td>Вдигане на тежести, лека тренировка</td>
+                            <td>177</td>
+                            <td>211</td>
+                            <td>245</td>
+                            <td>279</td>
+                        </tr>
+                        <tr>
+                            <td>Степер</td>
+                            <td>531</td>
+                            <td>633</td>
+                            <td>735</td>
+                            <td>838</td>
+                        </tr>
+                        <tr>
+                            <td>Гребен тренажор, леко</td>
+                            <td>207</td>
+                            <td>246</td>
+                            <td>286</td>
+                            <td>326</td>
+                        </tr>
+                        <tr>
+                            <td>Гребен тренажор, умерено</td>
+                            <td>413</td>
+                            <td>493</td>
+                            <td>572</td>
+                            <td>651</td>
+                        </tr>
+                        <tr>
+                            <td>Гребен тренажор, енергично</td>
+                            <td>502</td>
+                            <td>598</td>
+                            <td>695</td>
+                            <td>791</td>
+                        </tr>
+                        <tr>
+                            <td>Гребен тренажор, много енергично</td>
+                            <td>708</td>
+                            <td>844</td>
+                            <td>981</td>
+                            <td>1117</td>
+                        </tr>
+                        <tr>
+                            <td>Кростренажор</td>
+                            <td>413</td>
+                            <td>493</td>
+                            <td>572</td>
+                            <td>651</td>
+                        </tr>
+                        <tr>
+                            <td>Аеробика, умерено</td>
+                            <td>295</td>
+                            <td>352</td>
+                            <td>409</td>
+                            <td>465</td>
+                        </tr>
+                        <tr>
+                            <td>Аеробика, енергично</td>
+                            <td>413</td>
+                            <td>493</td>
+                            <td>572</td>
+                            <td>651</td>
+                        </tr>
+                        <tr>
+                            <td>Аеробика, степ аеробика</td>
+                            <td>502</td>
+                            <td>598</td>
+                            <td>695</td>
+                            <td>791</td>
+                        </tr>
+                        <tr>
+                            <td>Аеробика, общо</td>
+                            <td>384</td>
+                            <td>457</td>
+                            <td>531</td>
+                            <td>605</td>
+                        </tr>
+                        <tr>
+                            <td>Разтягане, йога</td>
+                            <td>236</td>
+                            <td>281</td>
+                            <td>327</td>
+                            <td>372</td>
+                        </tr>
+                        <tr>
+                            <td>Леко разтягане</td>
+                            <td>148</td>
+                            <td>176</td>
+                            <td>204</td>
+                            <td>233</td>
+                        </tr>
+                        <tr>
+                            <td>Водене на аеробен клас</td>
+                            <td>354</td>
+                            <td>422</td>
+                            <td>490</td>
+                            <td>558</td>
+                        </tr>
+                        <tr>
+                            <td>Водна аеробика</td>
+                            <td>236</td>
+                            <td>281</td>
+                            <td>327</td>
+                            <td>372</td>
+                        </tr>
+                        <tr>
+                            <td>Балет, джаз</td>
+                            <td>266</td>
+                            <td>317</td>
+                            <td>368</td>
+                            <td>419</td>
+                        </tr>
+                        <tr>
+                            <td>Бални танци, бавно</td>
+                            <td>177</td>
+                            <td>211</td>
+                            <td>245</td>
+                            <td>279</td>
+                        </tr>
+                        <tr>
+                            <td>Бални танци, бързо</td>
+                            <td>325</td>
+                            <td>387</td>
+                            <td>449</td>
+                            <td>512</td>
+                        </tr>
+                        <tr>
+                            <td>Спринт, 8 км/ч</td>
+                            <td>472</td>
+                            <td>563</td>
+                            <td>654</td>
+                            <td>745</td>
+                        </tr>
+                        <tr>
+                            <td>Спринт, 8.5 км/ч</td>
+                            <td>531</td>
+                            <td>633</td>
+                            <td>735</td>
+                            <td>838</td>
+                        </tr>
+                        <tr>
+                            <td>Спринт, 9.5 км/ч</td>
+                            <td>590</td>
+                            <td>704</td>
+                            <td>817</td>
+                            <td>931</td>
+                        </tr>
+                        <tr>
+                            <td>Спринт, 10.5 км/ч</td>
+                            <td>649</td>
+                            <td>774</td>
+                            <td>899</td>
+                            <td>1024</td>
+                        </tr>
+                        <tr>
+                            <td>Спринт, 11 mph км/ч</td>
+                            <td>679</td>
+                            <td>809</td>
+                            <td>940</td>
+                            <td>1070</td>
+                        </tr>
+                        <tr>
+                            <td>Спринт, 12 км/ч</td>
+                            <td>738</td>
+                            <td>880</td>
+                            <td>1022</td>
+                            <td>1163</td>
+                        </tr>
+                        <tr>
+                            <td>Спринт, 13 км/ч</td>
+                            <td>797</td>
+                            <td>950</td>
+                            <td>1103</td>
+                            <td>1256</td>
+                        </tr>
+                        <tr>
+                            <td>Спринт, 14 км/ч</td>
+                            <td>826</td>
+                            <td>985</td>
+                            <td>1144</td>
+                            <td>1303</td>
+                        </tr>
+                        <tr>
+                            <td>Спринт, 14.5 км/ч</td>
+                            <td>885</td>
+                            <td>1056</td>
+                            <td>1226</td>
+                            <td>1396</td>
+                        </tr>
+                        <tr>
+                            <td>Спринт, 16 км/ч</td>
+                            <td>944</td>
+                            <td>1126</td>
+                            <td>1308</td>
+                            <td>1489</td>
+                        </tr>
+                        <tr>
+                            <td>Спринт, 17.5 км/ч</td>
+                            <td>1062</td>
+                            <td>1267</td>
+                            <td>1471</td>
+                            <td>1675</td>
+                        </tr>
+                        <tr>
+                            <td>Спринт, изкачване на стълби</td>
+                            <td>885</td>
+                            <td>1056</td>
+                            <td>1226</td>
+                            <td>1396</td>
+                        </tr>
+                        <tr>
+                            <td>Лека атлетика (тласкане на гюле, диск)</td>
+                            <td>236</td>
+                            <td>281</td>
+                            <td>327</td>
+                            <td>372</td>
+                        </tr>
+                        <tr>
+                            <td>Лека атлетика (висок скок, овчарски скок)</td>
+                            <td>354</td>
+                            <td>422</td>
+                            <td>490</td>
+                            <td>558</td>
+                        </tr>
+                        <tr>
+                            <td>Лека атлетика (препятствия)</td>
+                            <td>590</td>
+                            <td>704</td>
+                            <td>817</td>
+                            <td>931</td>
+                        </tr>
+                        <tr>
+                            <td>Стрелба с лък</td>
+                            <td>207</td>
+                            <td>246</td>
+                            <td>286</td>
+                            <td>326</td>
+                        </tr>
+                        <tr>
+                            <td>Бадминтон</td>
+                            <td>266</td>
+                            <td>317</td>
+                            <td>368</td>
+                            <td>419</td>
+                        </tr>
+                        <tr>
+                            <td>Баскетбол, състезателно</td>
+                            <td>472</td>
+                            <td>563</td>
+                            <td>654</td>
+                            <td>745</td>
+                        </tr>
+                        <tr>
+                            <td>Баскетбол, несъстезателно</td>
+                            <td>354</td>
+                            <td>422</td>
+                            <td>490</td>
+                            <td>558</td>
+                        </tr>
+                        <tr>
+                            <td>Баскетбол, стрелба</td>
+                            <td>266</td>
+                            <td>317</td>
+                            <td>368</td>
+                            <td>419</td>
+                        </tr>
+                        <tr>
+                            <td>Билярд</td>
+                            <td>148</td>
+                            <td>176</td>
+                            <td>204</td>
+                            <td>233</td>
+                        </tr>
+                        <tr>
+                            <td>Боулинг</td>
+                            <td>177</td>
+                            <td>211</td>
+                            <td>245</td>
+                            <td>279</td>
+                        </tr>
+                        <tr>
+                            <td>Бокс, ринг</td>
+                            <td>708</td>
+                            <td>844</td>
+                            <td>981</td>
+                            <td>1117</td>
+                        </tr>
+                        <tr>
+                            <td>Бокс, круша</td>
+                            <td>354</td>
+                            <td>422</td>
+                            <td>490</td>
+                            <td>558</td>
+                        </tr>
+                        <tr>
+                            <td>Бокс, спаринг</td>
+                            <td>531</td>
+                            <td>633</td>
+                            <td>735</td>
+                            <td>838</td>
+                        </tr>
+                        <tr>
+                            <td>Крикет</td>
+                            <td>295</td>
+                            <td>352</td>
+                            <td>409</td>
+                            <td>465</td>
+                        </tr>
+                        <tr>
+                            <td>Крокет</td>
+                            <td>148</td>
+                            <td>176</td>
+                            <td>204</td>
+                            <td>233</td>
+                        </tr>
+                        <tr>
+                            <td>Кърлинг</td>
+                            <td>236</td>
+                            <td>281</td>
+                            <td>327</td>
+                            <td>372</td>
+                        </tr>
+                        <tr>
+                            <td>Дартс</td>
+                            <td>148</td>
+                            <td>176</td>
+                            <td>204</td>
+                            <td>233</td>
+                        </tr>
+                        <tr>
+                            <td>Фехтовка</td>
+                            <td>354</td>
+                            <td>422</td>
+                            <td>490</td>
+                            <td>558</td>
+                        </tr>
+                        <tr>
+                            <td>Футбол, конкурентно</td>
+                            <td>531</td>
+                            <td>633</td>
+                            <td>735</td>
+                            <td>838</td>
+                        </tr>
+                        <tr>
+                            <td>Футбол</td>
+                            <td>472</td>
+                            <td>563</td>
+                            <td>654</td>
+                            <td>745</td>
+                        </tr>
+                        <tr>
+                            <td>Фризби</td>
+                            <td>177</td>
+                            <td>211</td>
+                            <td>245</td>
+                            <td>279</td>
+                        </tr>
+                        <tr>
+                            <td>Голф</td>
+                            <td>266</td>
+                            <td>317</td>
+                            <td>368</td>
+                            <td>419</td>
+                        </tr>
+                        <tr>
+                            <td>Мини голф</td>
+                            <td>177</td>
+                            <td>211</td>
+                            <td>245</td>
+                            <td>279</td>
+                        </tr>
+                        <tr>
+                            <td>Гимнастика</td>
+                            <td>236</td>
+                            <td>281</td>
+                            <td>327</td>
+                            <td>372</td>
+                        </tr>
+                        <tr>
+                            <td>Хандбал</td>
+                            <td>708</td>
+                            <td>844</td>
+                            <td>981</td>
+                            <td>1117</td>
+                        </tr>
+                        <tr>
+                            <td>Хокей, хокей на трева</td>
+                            <td>472</td>
+                            <td>563</td>
+                            <td>654</td>
+                            <td>745</td>
+                        </tr>
+                        <tr>
+                            <td>Хокей, хокей на лед</td>
+                            <td>472</td>
+                            <td>563</td>
+                            <td>654</td>
+                            <td>745</td>
+                        </tr>
+                        <tr>
+                            <td>Езда</td>
+                            <td>236</td>
+                            <td>281</td>
+                            <td>327</td>
+                            <td>372</td>
+                        </tr>
+                        <tr>
+                            <td>Конна езда, тръс</td>
+                            <td>384</td>
+                            <td>457</td>
+                            <td>531</td>
+                            <td>605</td>
+                        </tr>
+                        <tr>
+                            <td>Конна езда, галоп</td>
+                            <td>472</td>
+                            <td>563</td>
+                            <td>654</td>
+                            <td>745</td>
+                        </tr>
+                        <tr>
+                            <td>Бойни изкуства, джудо, карате, джиу-джицу</td>
+                            <td>590</td>
+                            <td>704</td>
+                            <td>817</td>
+                            <td>931</td>
+                        </tr>
+                        <tr>
+                            <td>Бойни изкуства, кикбокс</td>
+                            <td>590</td>
+                            <td>704</td>
+                            <td>817</td>
+                            <td>931</td>
+                        </tr>
+                        <tr>
+                            <td>Бойните изкуства, Тае Куан</td>
+                            <td>590</td>
+                            <td>704</td>
+                            <td>817</td>
+                            <td>931</td>
+                        </tr>
+                        <tr>
+                            <td>Жонглиране</td>
+                            <td>236</td>
+                            <td>281</td>
+                            <td>327</td>
+                            <td>372</td>
+                        </tr>
+                        <tr>
+                            <td>Лакрос</td>
+                            <td>472</td>
+                            <td>563</td>
+                            <td>654</td>
+                            <td>745</td>
+                        </tr>
+                        <tr>
+                            <td>Поло</td>
+                            <td>472</td>
+                            <td>563</td>
+                            <td>654</td>
+                            <td>745</td>
+                        </tr>
+                        <tr>
+                            <td>Скално катерене, качване</td>
+                            <td>649</td>
+                            <td>774</td>
+                            <td>899</td>
+                            <td>1024</td>
+                        </tr>
+                        <tr>
+                            <td>Скално катерене, слизане</td>
+                            <td>472</td>
+                            <td>563</td>
+                            <td>654</td>
+                            <td>745</td>
+                        </tr>
+                        <tr>
+                            <td>Скачане на въже, бързо</td>
+                            <td>708</td>
+                            <td>844</td>
+                            <td>981</td>
+                            <td>1117</td>
+                        </tr>
+                        <tr>
+                            <td>Скачане на въже, умерено</td>
+                            <td>590</td>
+                            <td>704</td>
+                            <td>817</td>
+                            <td>931</td>
+                        </tr>
+                        <tr>
+                            <td>Скачане на въже, бавно</td>
+                            <td>472</td>
+                            <td>563</td>
+                            <td>654</td>
+                            <td>745</td>
+                        </tr>
+                        <tr>
+                            <td>Ръгби</td>
+                            <td>590</td>
+                            <td>704</td>
+                            <td>817</td>
+                            <td>931</td>
+                        </tr>
+                        <tr>
+                            <td>Скейтборд</td>
+                            <td>295</td>
+                            <td>352</td>
+                            <td>409</td>
+                            <td>465</td>
+                        </tr>
+                        <tr>
+                            <td>Ролкови кънки</td>
+                            <td>413</td>
+                            <td>493</td>
+                            <td>572</td>
+                            <td>651</td>
+                        </tr>
+                        <tr>
+                            <td>Гмуркане</td>
+                            <td>177</td>
+                            <td>211</td>
+                            <td>245</td>
+                            <td>279</td>
+                        </tr>
+                        <tr>
+                            <td>Софтбол или бейзбол</td>
+                            <td>295</td>
+                            <td>352</td>
+                            <td>409</td>
+                            <td>465</td>
+                        </tr>
+                        <tr>
+                            <td>Скуош</td>
+                            <td>708</td>
+                            <td>844</td>
+                            <td>981</td>
+                            <td>1117</td>
+                        </tr>
+                        <tr>
+                            <td>Тенис на маса, пинг-понг</td>
+                            <td>236</td>
+                            <td>281</td>
+                            <td>327</td>
+                            <td>372</td>
+                        </tr>
+                        <tr>
+                            <td>Тай чи</td>
+                            <td>236</td>
+                            <td>281</td>
+                            <td>327</td>
+                            <td>372</td>
+                        </tr>
+                        <tr>
+                            <td>Тенис</td>
+                            <td>413</td>
+                            <td>493</td>
+                            <td>572</td>
+                            <td>651</td>
+                        </tr>
+                        <tr>
+                            <td>Тенис, двойки</td>
+                            <td>354</td>
+                            <td>422</td>
+                            <td>490</td>
+                            <td>558</td>
+                        </tr>
+                        <tr>
+                            <td>Тенис, сингъл</td>
+                            <td>472</td>
+                            <td>563</td>
+                            <td>654</td>
+                            <td>745</td>
+                        </tr>
+                        <tr>
+                            <td>Батуд</td>
+                            <td>207</td>
+                            <td>246</td>
+                            <td>286</td>
+                            <td>326</td>
+                        </tr>
+                        <tr>
+                            <td>Волейбол, конкурентно</td>
+                            <td>472</td>
+                            <td>563</td>
+                            <td>654</td>
+                            <td>745</td>
+                        </tr>
+                        <tr>
+                            <td>Волейбол</td>
+                            <td>177</td>
+                            <td>211</td>
+                            <td>245</td>
+                            <td>279</td>
+                        </tr>
+                        <tr>
+                            <td>Волейбол, плажен</td>
+                            <td>472</td>
+                            <td>563</td>
+                            <td>654</td>
+                            <td>745</td>
+                        </tr>
+                        <tr>
+                            <td>Борба</td>
+                            <td>354</td>
+                            <td>422</td>
+                            <td>490</td>
+                            <td>558</td>
+                        </tr>
+                        <tr>
+                            <td>Туристически поход</td>
+                            <td>413</td>
+                            <td>493</td>
+                            <td>572</td>
+                            <td>651</td>
+                        </tr>
+                        <tr>
+                            <td>Носене на бебе, равен терен</td>
+                            <td>207</td>
+                            <td>246</td>
+                            <td>286</td>
+                            <td>326</td>
+                        </tr>
+                        <tr>
+                            <td>Носене на бебе, качване по стълби</td>
+                            <td>295</td>
+                            <td>352</td>
+                            <td>409</td>
+                            <td>465</td>
+                        </tr>
+                        <tr>
+                            <td>Качване по стъбли с от 7 до 11 кг</td>
+                            <td>354</td>
+                            <td>422</td>
+                            <td>490</td>
+                            <td>558</td>
+                        </tr>
+                        <tr>
+                            <td>Качване по стълби с от 11 до 22 кг</td>
+                            <td>472</td>
+                            <td>563</td>
+                            <td>654</td>
+                            <td>745</td>
+                        </tr>
+                        <tr>
+                            <td>Walk / Run игра с деца, умерено</td>
+                            <td>236</td>
+                            <td>281</td>
+                            <td>327</td>
+                            <td>372</td>
+                        </tr>
+                        <tr>
+                            <td>Walk / Run игра с деца, енергично</td>
+                            <td>295</td>
+                            <td>352</td>
+                            <td>409</td>
+                            <td>465</td>
+                        </tr>
+                        <tr>
+                            <td>Товарене и разтоварване на автомобил</td>
+                            <td>177</td>
+                            <td>211</td>
+                            <td>245</td>
+                            <td>279</td>
+                        </tr>
+                        <tr>
+                            <td>Изкачване хълм носейки до 4 кг</td>
+                            <td>413</td>
+                            <td>493</td>
+                            <td>572</td>
+                            <td>651</td>
+                        </tr>
+                        <tr>
+                            <td>Катерене хълм, носейки от 4.5 до 9 кг</td>
+                            <td>443</td>
+                            <td>528</td>
+                            <td>613</td>
+                            <td>698</td>
+                        </tr>
+                        <tr>
+                            <td>Катерене хълм, носейки от 9.5 до 19 кг</td>
+                            <td>472</td>
+                            <td>563</td>
+                            <td>654</td>
+                            <td>745</td>
+                        </tr>
+                        <tr>
+                            <td>Катерене хълмо, носейки над 20 кг</td>
+                            <td>531</td>
+                            <td>633</td>
+                            <td>735</td>
+                            <td>838</td>
+                        </tr>
+                        <tr>
+                            <td>Слизане по стълби</td>
+                            <td>177</td>
+                            <td>211</td>
+                            <td>245</td>
+                            <td>279</td>
+                        </tr>
+                        <tr>
+                            <td>Маршируване, бързо</td>
+                            <td>384</td>
+                            <td>457</td>
+                            <td>531</td>
+                            <td>605</td>
+                        </tr>
+                        <tr>
+                            <td>Детски игри, дама, народна топка</td>
+                            <td>295</td>
+                            <td>352</td>
+                            <td>409</td>
+                            <td>465</td>
+                        </tr>
+                        <tr>
+                            <td>Бутане на количка или ходене с деца</td>
+                            <td>148</td>
+                            <td>176</td>
+                            <td>204</td>
+                            <td>233</td>
+                        </tr>
+                        <tr>
+                            <td>Състезателно ходене</td>
+                            <td>384</td>
+                            <td>457</td>
+                            <td>531</td>
+                            <td>605</td>
+                        </tr>
+                        <tr>
+                            <td>Скално катерене, планинско катерене</td>
+                            <td>472</td>
+                            <td>563</td>
+                            <td>654</td>
+                            <td>745</td>
+                        </tr>
+                        <tr>
+                            <td>Разхождане на кучето</td>
+                            <td>177</td>
+                            <td>211</td>
+                            <td>245</td>
+                            <td>279</td>
+                        </tr>
+                        <tr>
+                            <td>Ходене, с под 3 км/ч, много бавно</td>
+                            <td>118</td>
+                            <td>141</td>
+                            <td>163</td>
+                            <td>186</td>
+                        </tr>
+                        <tr>
+                            <td>Ходене с 3 км/ч, бавно</td>
+                            <td>148</td>
+                            <td>176</td>
+                            <td>204</td>
+                            <td>233</td>
+                        </tr>
+                        <tr>
+                            <td>Ходене 4 км/ч</td>
+                            <td>177</td>
+                            <td>211</td>
+                            <td>245</td>
+                            <td>279</td>
+                        </tr>
+                        <tr>
+                            <td>Ходене 4.8 км/ч, умерено</td>
+                            <td>195</td>
+                            <td>232</td>
+                            <td>270</td>
+                            <td>307</td>
+                        </tr>
+                        <tr>
+                            <td>Ходене 5.5 км/ч, високо темпо</td>
+                            <td>224</td>
+                            <td>267</td>
+                            <td>311</td>
+                            <td>354</td>
+                        </tr>
+                        <tr>
+                            <td>Ходене 5.5 км/ч , изкачване</td>
+                            <td>354</td>
+                            <td>422</td>
+                            <td>490</td>
+                            <td>558</td>
+                        </tr>
+                        <tr>
+                            <td>Ходене 6.5 км/ч , много живо</td>
+                            <td>295</td>
+                            <td>352</td>
+                            <td>409</td>
+                            <td>465</td>
+                        </tr>
+                        <tr>
+                            <td>Ходене 7 км/ч</td>
+                            <td>372</td>
+                            <td>443</td>
+                            <td>515</td>
+                            <td>586</td>
+                        </tr>
+                        <tr>
+                            <td>Ходене 8 км/ч</td>
+                            <td>472</td>
+                            <td>563</td>
+                            <td>654</td>
+                            <td>745</td>
+                        </tr>
+                        <tr>
+                            <td>Гребане, силно</td>
+                            <td>148</td>
+                            <td>176</td>
+                            <td>204</td>
+                            <td>233</td>
+                        </tr>
+                        <tr>
+                            <td>Кану, гребане, леко</td>
+                            <td>177</td>
+                            <td>211</td>
+                            <td>245</td>
+                            <td>279</td>
+                        </tr>
+                        <tr>
+                            <td>Кану, гребане, умерено</td>
+                            <td>413</td>
+                            <td>493</td>
+                            <td>572</td>
+                            <td>651</td>
+                        </tr>
+                        <tr>
+                            <td>Кану, гребане, енергично</td>
+                            <td>708</td>
+                            <td>844</td>
+                            <td>981</td>
+                            <td>1117</td>
+                        </tr>
+                        <tr>
+                            <td>Ветроходство</td>
+                            <td>295</td>
+                            <td>352</td>
+                            <td>409</td>
+                            <td>465</td>
+                        </tr>
+                        <tr>
+                            <td>Каране на ски, водни ски</td>
+                            <td>354</td>
+                            <td>422</td>
+                            <td>490</td>
+                            <td>558</td>
+                        </tr>
+                        <tr>
+                            <td>Гмуркане, бързо</td>
+                            <td>944</td>
+                            <td>1126</td>
+                            <td>1308</td>
+                            <td>1489</td>
+                        </tr>
+                        <tr>
+                            <td>Гмуркане, умерено</td>
+                            <td>738</td>
+                            <td>880</td>
+                            <td>1022</td>
+                            <td>1163</td>
+                        </tr>
+                        <tr>
+                            <td>Гмуркане с шнорхел</td>
+                            <td>295</td>
+                            <td>352</td>
+                            <td>409</td>
+                            <td>465</td>
+                        </tr>
+                        <tr>
+                            <td>Сърфиране</td>
+                            <td>177</td>
+                            <td>211</td>
+                            <td>245</td>
+                            <td>279</td>
+                        </tr>
+                        <tr>
+                            <td>Рафтинг, каяк, кану-каяк</td>
+                            <td>295</td>
+                            <td>352</td>
+                            <td>409</td>
+                            <td>465</td>
+                        </tr>
+                        <tr>
+                            <td>Плуване обиколки, свободен стил, бързо</td>
+                            <td>590</td>
+                            <td>704</td>
+                            <td>817</td>
+                            <td>931</td>
+                        </tr>
+                        <tr>
+                            <td>Плуване обиколки, свободен стил, бавно</td>
+                            <td>413</td>
+                            <td>493</td>
+                            <td>572</td>
+                            <td>651</td>
+                        </tr>
+                        <tr>
+                            <td>Плуване гръб</td>
+                            <td>413</td>
+                            <td>493</td>
+                            <td>572</td>
+                            <td>651</td>
+                        </tr>
+                        <tr>
+                            <td>Плуване бруст</td>
+                            <td>590</td>
+                            <td>704</td>
+                            <td>817</td>
+                            <td>931</td>
+                        </tr>
+                        <tr>
+                            <td>Плуване пеперуда</td>
+                            <td>649</td>
+                            <td>774</td>
+                            <td>899</td>
+                            <td>1024</td>
+                        </tr>
+                        <tr>
+                            <td>Плуване, бавно</td>
+                            <td>354</td>
+                            <td>422</td>
+                            <td>490</td>
+                            <td>558</td>
+                        </tr>
+                        <tr>
+                            <td>Плуване на една страна</td>
+                            <td>472</td>
+                            <td>563</td>
+                            <td>654</td>
+                            <td>745</td>
+                        </tr>
+                        <tr>
+                            <td>Плуване синхронизирано</td>
+                            <td>472</td>
+                            <td>563</td>
+                            <td>654</td>
+                            <td>745</td>
+                        </tr>
+                        <tr>
+                            <td>Плуване, бързо, енергични</td>
+                            <td>590</td>
+                            <td>704</td>
+                            <td>817</td>
+                            <td>931</td>
+                        </tr>
+                        <tr>
+                            <td>Плуване, умерено</td>
+                            <td>236</td>
+                            <td>281</td>
+                            <td>327</td>
+                            <td>372</td>
+                        </tr>
+                        <tr>
+                            <td>Водна аеробика, художествена гимнастика във вода</td>
+                            <td>236</td>
+                            <td>281</td>
+                            <td>327</td>
+                            <td>372</td>
+                        </tr>
+                        <tr>
+                            <td>Водна топка</td>
+                            <td>590</td>
+                            <td>704</td>
+                            <td>817</td>
+                            <td>931</td>
+                        </tr>
+                        <tr>
+                            <td>Воден волейбол</td>
+                            <td>177</td>
+                            <td>211</td>
+                            <td>245</td>
+                            <td>279</td>
+                        </tr>
+                        <tr>
+                            <td>Гмуркане от трамплин или платформа</td>
+                            <td>177</td>
+                            <td>211</td>
+                            <td>245</td>
+                            <td>279</td>
+                        </tr>
+                        <tr>
+                            <td>Каране на кънки, бавно</td>
+                            <td>325</td>
+                            <td>387</td>
+                            <td>449</td>
+                            <td>512</td>
+                        </tr>
+                        <tr>
+                            <td>Каране на кънки, средна скорост</td>
+                            <td>413</td>
+                            <td>493</td>
+                            <td>572</td>
+                            <td>651</td>
+                        </tr>
+                        <tr>
+                            <td>Каране на кънки, бързо</td>
+                            <td>531</td>
+                            <td>633</td>
+                            <td>735</td>
+                            <td>838</td>
+                        </tr>
+                        <tr>
+                            <td>Ски бягане, бавно</td>
+                            <td>413</td>
+                            <td>493</td>
+                            <td>572</td>
+                            <td>651</td>
+                        </tr>
+                        <tr>
+                            <td>Ски бягане, умерено</td>
+                            <td>472</td>
+                            <td>563</td>
+                            <td>654</td>
+                            <td>745</td>
+                        </tr>
+                        <tr>
+                            <td>Ски бягане, енергично</td>
+                            <td>531</td>
+                            <td>633</td>
+                            <td>735</td>
+                            <td>838</td>
+                        </tr>
+                        <tr>
+                            <td>Ски бягането, изкачване</td>
+                            <td>974</td>
+                            <td>1161</td>
+                            <td>1348</td>
+                            <td>1536</td>
+                        </tr>
+                        <tr>
+                            <td>Ски спускане, бавно</td>
+                            <td>295</td>
+                            <td>352</td>
+                            <td>409</td>
+                            <td>465</td>
+                        </tr>
+                        <tr>
+                            <td>Ски спускане, умерено</td>
+                            <td>354</td>
+                            <td>422</td>
+                            <td>490</td>
+                            <td>558</td>
+                        </tr>
+                        <tr>
+                            <td>Ски спускане, бързо</td>
+                            <td>472</td>
+                            <td>563</td>
+                            <td>654</td>
+                            <td>745</td>
+                        </tr>
+                        <tr>
+                            <td>Пързаляне с шейна</td>
+                            <td>413</td>
+                            <td>493</td>
+                            <td>572</td>
+                            <td>651</td>
+                        </tr>
+                        <tr>
+                            <td>Рисуване</td>
+                            <td>266</td>
+                            <td>317</td>
+                            <td>368</td>
+                            <td>419</td>
+                        </tr>
+                        <tr>
+                            <td>Къпане на куче</td>
+                            <td>207</td>
+                            <td>246</td>
+                            <td>286</td>
+                            <td>326</td>
+                        </tr>
+                        <tr>
+                            <td>Косене на тревата</td>
+                            <td>325</td>
+                            <td>387</td>
+                            <td>449</td>
+                            <td>512</td>
+                        </tr>
+                        <tr>
+                            <td>Ринене на сняг</td>
+                            <td>354</td>
+                            <td>422</td>
+                            <td>490</td>
+                            <td>558</td>
+                        </tr>
+                        <tr>
+                            <td>Градинарство</td>
+                            <td>236</td>
+                            <td>281</td>
+                            <td>327</td>
+                            <td>372</td>
+                        </tr>
+                        <tr>
+                            <td>Поливане на градина</td>
+                            <td>89</td>
+                            <td>106</td>
+                            <td>123</td>
+                            <td>140</td>
+                        </tr>
+                        <tr>
+                            <td>Плевене, култивиране градина</td>
+                            <td>266</td>
+                            <td>317</td>
+                            <td>368</td>
+                            <td>419</td>
+                        </tr>
+                        <tr>
+                            <td>Дърводелство</td>
+                            <td>207</td>
+                            <td>246</td>
+                            <td>286</td>
+                            <td>326</td>
+                        </tr>
+                        <tr>
+                            <td>Носене на тежки товари</td>
+                            <td>472</td>
+                            <td>563</td>
+                            <td>654</td>
+                            <td>745</td>
+                        </tr>
+                        <tr>
+                            <td>Носене на умерени товари</td>
+                            <td>472</td>
+                            <td>563</td>
+                            <td>654</td>
+                            <td>745</td>
+                        </tr>
+                        <tr>
+                            <td>Чистене</td>
+                            <td>207</td>
+                            <td>246</td>
+                            <td>286</td>
+                            <td>326</td>
+                        </tr>
+                        <tr>
+                            <td>Почистване, бърсане на прах</td>
+                            <td>148</td>
+                            <td>176</td>
+                            <td>204</td>
+                            <td>233</td>
+                        </tr>
+                        <tr>
+                            <td>Пилотиране самолет</td>
+                            <td>118</td>
+                            <td>141</td>
+                            <td>163</td>
+                            <td>186</td>
+                        </tr>
+                        <tr>
+                            <td>Каране мотор</td>
+                            <td>148</td>
+                            <td>176</td>
+                            <td>204</td>
+                            <td>233</td>
+                        </tr>
+                        <tr>
+                            <td>Обща домакинска работа, лека</td>
+                            <td>148</td>
+                            <td>176</td>
+                            <td>204</td>
+                            <td>233</td>
+                        </tr>
+                        <tr>
+                            <td>Обща домакинска работа, умерена</td>
+                            <td>207</td>
+                            <td>246</td>
+                            <td>286</td>
+                            <td>326</td>
+                        </tr>
+                        <tr>
+                            <td>Обща домакинска работа, енергична</td>
+                            <td>236</td>
+                            <td>281</td>
+                            <td>327</td>
+                            <td>372</td>
+                        </tr>
+                        <tr>
+                            <td>Музика, свирене на виолончело</td>
+                            <td>118</td>
+                            <td>141</td>
+                            <td>163</td>
+                            <td>186</td>
+                        </tr>
+                        <tr>
+                            <td>Музика, свирене на барабани</td>
+                            <td>236</td>
+                            <td>281</td>
+                            <td>327</td>
+                            <td>372</td>
+                        </tr>
+                        <tr>
+                            <td>Музика, свирене на пиано</td>
+                            <td>148</td>
+                            <td>176</td>
+                            <td>204</td>
+                            <td>233</td>
+                        </tr>
+                        <tr>
+                            <td>Музика, свирене на тромбон</td>
+                            <td>207</td>
+                            <td>246</td>
+                            <td>286</td>
+                            <td>326</td>
+                        </tr>
+                        <tr>
+                            <td>Музика, свирене на тромпет</td>
+                            <td>148</td>
+                            <td>176</td>
+                            <td>204</td>
+                            <td>233</td>
+                        </tr>
+                        <tr>
+                            <td>Музика, свирене на цигулка</td>
+                            <td>148</td>
+                            <td>176</td>
+                            <td>204</td>
+                            <td>233</td>
+                        </tr>
+                        <tr>
+                            <td>Музика, свирене на китара</td>
+                            <td>177</td>
+                            <td>211</td>
+                            <td>245</td>
+                            <td>279</td>
+                        </tr>
+                        <tr>
+                            <td>Правене на хляб</td>
+                            <td>148</td>
+                            <td>176</td>
+                            <td>204</td>
+                            <td>233</td>
+                        </tr>
+                        <tr>
+                            <td>Строителство, ремоделиране</td>
+                            <td>325</td>
+                            <td>387</td>
+                            <td>449</td>
+                            <td>512</td>
+                        </tr>
+                        <tr>
+                            <td>Земеделие, балиране на сено, почистване на плевня</td>
+                            <td>472</td>
+                            <td>563</td>
+                            <td>654</td>
+                            <td>745</td>
+                        </tr>
+                        <tr>
+                            <td>Пожарникарство, изкачване на стълба</td>
+                            <td>649</td>
+                            <td>774</td>
+                            <td>899</td>
+                            <td>1024</td>
+                        </tr>
+                        <tr>
+                            <td>Пожарникарство, теглене на маркуч</td>
+                            <td>472</td>
+                            <td>563</td>
+                            <td>654</td>
+                            <td>745</td>
+                        </tr>
+                        <tr>
+                            <td>Сечене на дърва, бързо</td>
+                            <td>1003</td>
+                            <td>1196</td>
+                            <td>1389</td>
+                            <td>1582</td>
+                        </tr>
+                        <tr>
+                            <td>Сечене на дърва, бавно</td>
+                            <td>295</td>
+                            <td>352</td>
+                            <td>409</td>
+                            <td>465</td>
+                        </tr>
+                        <tr>
+                            <td>Подрязване на дървета</td>
+                            <td>531</td>
+                            <td>633</td>
+                            <td>735</td>
+                            <td>838</td>
+                        </tr>
+                        <tr>
+                            <td>Риболов</td>
+                            <td>177</td>
+                            <td>211</td>
+                            <td>245</td>
+                            <td>279</td>
+                        </tr>
+                        <tr>
+                            <td>Риболов, прав</td>
+                            <td>236</td>
+                            <td>281</td>
+                            <td>327</td>
+                            <td>372</td>
+                        </tr>
+                        <tr>
+                            <td>Риболов, седнал</td>
+                            <td>148</td>
+                            <td>176</td>
+                            <td>204</td>
+                            <td>233</td>
+                        </tr>
+                        <tr>
+                            <td>Лов</td>
+                            <td>295</td>
+                            <td>352</td>
+                            <td>409</td>
+                            <td>465</td>
+                        </tr>
+                        <tr>
+                            <td>Лов, едър дивеч</td>
+                            <td>354</td>
+                            <td>422</td>
+                            <td>490</td>
+                            <td>558</td>
+                        </tr>
+                        <tr>
+                            <td>Лов, дребен дивеч</td>
+                            <td>295</td>
+                            <td>352</td>
+                            <td>409</td>
+                            <td>465</td>
+                        </tr>
+                        <tr>
+                            <td>Стрелба с пистолет</td>
+                            <td>148</td>
+                            <td>176</td>
+                            <td>204</td>
+                            <td>233</td>
+                        </tr>
+                        <tr>
+                            <td>Масажиране</td>
+                            <td>236</td>
+                            <td>281</td>
+                            <td>327</td>
+                            <td>372</td>
+                        </tr>
+                        <tr>
+                            <td>Копане</td>
+                            <td>502</td>
+                            <td>598</td>
+                            <td>695</td>
+                            <td>791</td>
+                        </tr>
+                        <tr>
+                            <td>Заседание, лека работа в офиса</td>
+                            <td>89</td>
+                            <td>106</td>
+                            <td>123</td>
+                            <td>140</td>
+                        </tr>
+                        <tr>
+                            <td>Работа в магазин</td>
+                            <td>136</td>
+                            <td>162</td>
+                            <td>188</td>
+                            <td>214</td>
+                        </tr>
+                        <tr>
+                            <td>Шивачество</td>
+                            <td>148</td>
+                            <td>176</td>
+                            <td>204</td>
+                            <td>233</td>
+                        </tr>
+                        <tr>
+                            <td>Компютър, въвеждане на данни</td>
+                            <td>89</td>
+                            <td>106</td>
+                            <td>123</td>
+                            <td>140</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </article>
+
+        </section>
+        <aside class="col-md-3">
+            <header>
+                Suggested pages:
+            </header>
+            <article>
+                <a href="#">
+                    <svg width ="200" height="125">
+                        <!--<g style="overflow:hidden; text-anchor: right; font-size:17px;font-family:Arial, Helvetica, sans-serif;font-weight:bold">-->
+                        <!--<defs>-->
+                        <!--<filter id="f1" x="0" y="0">-->
+                        <!--<feGaussianBlur in="SourceGraphic" stdDeviation="0.2" />-->
+                        <!--</filter>-->
+                        <!--</defs>-->
+                        <rect width="300" height="150" style="fill:rgb(255,255,255);stroke-width:3;stroke:rgb(0,0,0)" />
+                        <polygon points="5,25 30,60 55,25" style="fill:#C4D1D2;stroke:#E9EAE6;stroke-width:0" />
+                        <line x1="24" y1="51" x2="32" y2="31" style="stroke:rgb(72,163,155);stroke-width:1.2" />
+                        <line x1="32" y1="31" x2="42" y2="21" style="stroke:rgb(72,163,155);stroke-width:1.2" />
+                        <path d="M 5 25 Q25 50 30 60" stroke="#E9EAE6" fill="none" stroke-width="1.5px"/>
+                        <path d="M 55 25 Q35 50 30 60" stroke="#E9EAE6" fill="#C4D1D2" stroke-width="1.5px"/>
+                        <ellipse cx="30" cy="25" rx="25" ry="6" style="fill:rgb(173, 199, 197); stroke:#E9EAE6;stroke-width:1" />
+                        <line x1="32" y1="31" x2="41" y2="8" style="stroke:rgb(32,94,88);stroke-width:1.2;" />
+                        <ellipse cx="30" cy="25" rx="25" ry="6" style="fill:none; stroke:#E9EAE6;stroke-width:1" />
+                        <line x1="32.5" y1="30" x2="41" y2="8" style="stroke:rgb(32,94,88);stroke-width:1.2;" />
+                        <circle cx="30" cy="58" r="1.5" fill="#E9EAE6" />
+                        <circle cx="30" cy="56" r="1" fill="#C4D1D2" />
+                        <line x1="30" y1="58" x2="30" y2="65" style="stroke:#E9EAE6;stroke-width:1.5;" />
+                        <circle cx="37" cy="17" r="3.5" fill="#2F8B51" />
+                        <ellipse cx="38" cy="16" rx="1.5" ry="1" filter="url(#f1)" style="fill:#D3785E;stroke-width:1" />
+                        <text x="45" y="50" style="fill: rgb(64, 118, 124)">Dirty</text>
+                        <text x="34" y="65" style="fill: rgb(64, 118, 124)">Martini</text>
+                        <text x="75" y="85" font-size="35" style="fill: rgb(64, 118, 124)">Club</text>
+                        <!--</g>-->
+                    </svg>
+                </a>
+
+            </article>
+        </aside>
+    </div>
+
+</main>
+
+<footer class="container-fluid footer">
+    <p>This is footer</p>
+</footer>
+</body>
+</html>

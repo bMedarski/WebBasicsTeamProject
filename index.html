@@ -7,6 +7,7 @@
     <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="styles/main-style.css"/>
+    <link rel="stylesheet" href="styles/workouts.css"/>
 </head>
 <body>
     <nav class="navbar navbar-default">
@@ -19,7 +20,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand menu" href="#">Brand-Име</a>
+                <a class="navbar-brand menu" href="index.html"><img id="logo" src="images/logo.png" alt="logo"/></a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -30,21 +31,21 @@
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle menu" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Тренировки <span class="caret"></span></a>
                         <ul class="dropdown-menu">
-                            <li><a href="#">Action</a></li>
-                            <li><a href="#">Another action</a></li>
-                            <li><a href="#">Something else here</a></li>
+                            <li><a href="silovi.html">Силови тренировки</a></li>
+                            <li><a href="aerobni.html">Аеробни тренировки</a></li>
+                            <li><a href="kardio.html">Кардио тренировки</a></li>
                             <li role="separator" class="divider"></li>
-                            <li><a href="#">Separated link</a></li>
+                            <li><a href="table-kilokalorii.html">Таблица килокалории</a></li>
                             <li role="separator" class="divider"></li>
                             <li><a href="#">One more separated link</a></li>
                         </ul>
                     </li>
                     <li class="dropdown">
-                        <a href="#" class="dropdown-toggle class="menu"" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Хранене <span class="caret"></span></a>
+                        <a href="#" class="dropdown-toggle menu" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Хранене <span class="caret"></span></a>
                         <ul class="dropdown-menu">
-                            <li><a href="#">Action</a></li>
-                            <li><a href="#">Another action</a></li>
-                            <li><a href="#">Something else here</a></li>
+                            <li><a href="#">1</a></li>
+                            <li><a href="#">2</a></li>
+                            <li><a href="#">3</a></li>
                             <li role="separator" class="divider"></li>
                             <li><a href="#">Separated link</a></li>
                             <li role="separator" class="divider"></li>
@@ -59,12 +60,55 @@
             </div><!-- /.navbar-collapse -->
         </div><!-- /.container-fluid -->
 </nav>
-<footer>
-    <nav class="navbar navbar-default navbar-fixed-bottom footer">
-        <div class="container-fluid">
-            <p>This is footer</p>
+    <main class="container">
+        <div class="row">
+            <section class="col-md-9">
+
+                </article>
+            </section>
+            <aside class="col-md-3">
+                <header>
+                   Suggested pages:
+                </header>
+                <article>
+                    <a href="#">
+                        <svg width ="200" height="125">
+                            <!--<g style="overflow:hidden; text-anchor: right; font-size:17px;font-family:Arial, Helvetica, sans-serif;font-weight:bold">-->
+                            <!--<defs>-->
+                            <!--<filter id="f1" x="0" y="0">-->
+                            <!--<feGaussianBlur in="SourceGraphic" stdDeviation="0.2" />-->
+                            <!--</filter>-->
+                            <!--</defs>-->
+                            <rect width="300" height="150" style="fill:rgb(255,255,255);stroke-width:3;stroke:rgb(0,0,0)" />
+                            <polygon points="5,25 30,60 55,25" style="fill:#C4D1D2;stroke:#E9EAE6;stroke-width:0" />
+                            <line x1="24" y1="51" x2="32" y2="31" style="stroke:rgb(72,163,155);stroke-width:1.2" />
+                            <line x1="32" y1="31" x2="42" y2="21" style="stroke:rgb(72,163,155);stroke-width:1.2" />
+                            <path d="M 5 25 Q25 50 30 60" stroke="#E9EAE6" fill="none" stroke-width="1.5px"/>
+                            <path d="M 55 25 Q35 50 30 60" stroke="#E9EAE6" fill="#C4D1D2" stroke-width="1.5px"/>
+                            <ellipse cx="30" cy="25" rx="25" ry="6" style="fill:rgb(173, 199, 197); stroke:#E9EAE6;stroke-width:1" />
+                            <line x1="32" y1="31" x2="41" y2="8" style="stroke:rgb(32,94,88);stroke-width:1.2;" />
+                            <ellipse cx="30" cy="25" rx="25" ry="6" style="fill:none; stroke:#E9EAE6;stroke-width:1" />
+                            <line x1="32.5" y1="30" x2="41" y2="8" style="stroke:rgb(32,94,88);stroke-width:1.2;" />
+                            <circle cx="30" cy="58" r="1.5" fill="#E9EAE6" />
+                            <circle cx="30" cy="56" r="1" fill="#C4D1D2" />
+                            <line x1="30" y1="58" x2="30" y2="65" style="stroke:#E9EAE6;stroke-width:1.5;" />
+                            <circle cx="37" cy="17" r="3.5" fill="#2F8B51" />
+                            <ellipse cx="38" cy="16" rx="1.5" ry="1" filter="url(#f1)" style="fill:#D3785E;stroke-width:1" />
+                            <text x="45" y="50" style="fill: rgb(64, 118, 124)">Dirty</text>
+                            <text x="34" y="65" style="fill: rgb(64, 118, 124)">Martini</text>
+                            <text x="75" y="85" font-size="35" style="fill: rgb(64, 118, 124)">Club</text>
+                            <!--</g>-->
+                        </svg>
+                    </a>
+
+                </article>
+            </aside>
         </div>
-    </nav>
+
+    </main>
+
+<footer class="container-fluid footer">
+            <p>This is footer</p>
 </footer>
 </body>
 </html>

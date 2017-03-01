@@ -1,34 +1,46 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans');
 *{
     margin: 0;
     padding: 0;
 }
 body{
     background: url("../images/wood_floor_by_gnrbishop.jpg") repeat repeat;
+    font-family: 'PT Sans', sans-serif;
 }
 .navbar{
-    background-color: rgba(255,255,255,0.6);
+    background-color: rgba(125,125,125,0.75);
     border-bottom: 2px solid #5e360c;
+    margin-bottom: 0;
 }
 .navbar ul>li>a{
-    color: #5e360c;
+    color: #f0f0f0;
 
 }
 .dropdown-menu{
-    background-color: rgba(255,255,255,0.6);
+    /*background-color: rgba(255,255,255,0.6);*/
+    background-color: rgba(125,125,125,0.9);
     border: 1px solid #5e360c;
+
+}
+.dropdown-menu>li>a {
+    color: #f0f0f0;
 }
 .dropdown-menu .divider{
     background-color: #5e360c;
 }
 .navbar-default .navbar-nav>li>a,.navbar-default .navbar-brand{
-    color: #5e360c;
+    color: #f0f0f0;
+    text-shadow: 1px 1px #5e360c;
+    font-weight: bold;
+
 }
 .navbar-default .navbar-nav>li>a:active,.navbar-default .navbar-brand:active{
-    color: #5e360c;
+    /*color: #5e360c;*/
 }
 .navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover{
     color: #5e360c;
     background-color: rgba(255,255,255,0.8);
+    text-shadow: 1px 1px #f0f0f0;
 }
 .footer{
     border-bottom:none;
@@ -37,3 +49,12 @@ body{
     text-align: center;
     line-height: 40px;
 }
+#logo{
+    line-height: 50px;
+    width: 120px;
+    height: 40px;
+}.menu{
+    padding: 5px 0;
+    padding-right: 20px;
+    
+ }
