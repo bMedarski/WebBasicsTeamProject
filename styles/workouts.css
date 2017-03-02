@@ -21,9 +21,6 @@ section{
     text-shadow:1px 1px #f0f0f0;
     padding: 0 15px;
 }
-aside{
-    padding: 20px 0;
-}
 aside>header{
     padding-bottom: 10px;
     font-size: 25px;

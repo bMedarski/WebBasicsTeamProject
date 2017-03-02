@@ -58,3 +58,9 @@ body{
     padding-right: 20px;
     
  }
+aside{
+    padding: 20px 0;
+}
+aside>article{
+    margin: 15px auto;
+}
