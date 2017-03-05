@@ -2,11 +2,13 @@
 *{
     margin: 0;
     padding: 0;
+    word-wrap: break-word;
 }
 body{
     background: url("../images/wood_floor_by_gnrbishop.jpg") repeat repeat;
     font-family: 'PT Sans', sans-serif;
 }
+
 .navbar{
     background-color: rgba(125,125,125,0.75);
     border-bottom: 2px solid #5e360c;
@@ -14,6 +16,7 @@ body{
 }
 .navbar ul>li>a{
     color: #f0f0f0;
+    font-size:20px;
 
 }
 .dropdown-menu{

@@ -1,0 +1,77 @@
+header .info-header img {
+    margin:0 auto;
+    border-radius:30px;
+}
+ header .info-header h1 {
+    font-style:italic;
+    text-shadow:2px 2px #ffffff;
+    font-size:35px;
+    margin-top:20px;
+    margin-bottom:10px;
+
+}
+
+header .info-header p {
+    font-style:italic;
+    font-size:16px;
+    font-weight:bold;
+    margin-top:10px;
+}
+
+header .info-header .green {
+      color:#96C51D;
+      text-shadow:1px 1px #000000;
+      font-size:25px;
+  }
+
+header .info-header .orange {
+    color:#F19914;
+    text-shadow:1px 1px #000000;
+    font-size:25px;
+}
+
+main article .info img {
+    margin:0 auto;
+    box-shadow :5px 5px 5px #888888;
+    width:200px;
+    height:200px;
+
+}
+
+main article .info {
+
+    text-align: center;
+
+}
+
+main section article .info h2 {
+    font-style:italic;
+    font-size:20px;
+    color:#96C51D;
+    text-shadow:1px 1px #000000;
+}
+
+main .buttons .row {
+    text-align: center;
+    margin-top:50px;
+    margin-bottom:50px;
+
+}
+
+
+.design {
+    text-decoration: none;
+    font-size:20px;
+    color:#000000;
+    font-style:italic;
+    padding:15px 75px;
+    margin-left:20px;
+    background-color:#96C51D;
+    border-radius:10px;
+    border:solid 2px #F19914;
+}
+
+.design:hover {
+    background-color:#F19914;
+    border:solid 2px #96C51D;
+}
