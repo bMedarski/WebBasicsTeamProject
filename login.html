@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles/main-style.css">
+    <link rel="stylesheet" href="styles/register.css">
+    <link rel="stylesheet" href="styles/login.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <title>Login</title>
+</head>
+<body>
+<header>
+    <nav class="navbar navbar-default">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand menu" href="home-page.html"><img id="logo" src="images/logo.png" alt="logo"/></a>
+            </div>
+
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="register.html" class="menu">Регистрация</a></li>
+                    <li><a href="#" class="menu">Вход</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<main class="container">
+
+    <p class="text-center healthy"><span class="green">HEALTHY </span> <span class="orange">LIFESTYLES </span></p>
+    <p class="text-center ">За да влезете във Вашия профил , моля попълнете Вашия email и Вашата парола.</p>
+
+    <div class="container">
+        <div class="row">
+            <form class="form-horizontal">
+
+                <div class="form-group">
+                    <label class="col-md-4 control-label personal" for="email">Email</label>
+                    <div class="col-md-4">
+                        <input type="text"  name="email" placeholder="Email" id="email" class="form-control" required >
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label class="col-md-4 control-label personal" for="password">Парола</label>
+                    <div class="col-md-4">
+                        <input type="password"  name="password" placeholder="Парола" id="password" class="form-control" required >
+                    </div>
+                </div>
+
+                    <p class=" text-center forgot"><a href="#">Забравена парола?</a></p>
+
+
+                <div class="container log-button">
+
+                    <button type="button" class="btn btn-default log-button">Влез</button>
+
+                </div>
+               </form>
+
+
+            </div>
+        </div>
+</main>
+
+<footer class="container-fluid footer">
+    <div class="container">
+        <div class="row">
+
+            <div class="col-md-4 content footer-left">
+                <h2>About us</h2>
+                <p>Получете повече информация за нашата инициатива!</p>
+                <p>Свържете се с нас!
+                </p>
+
+                <div class="footer-icons">
+                    <a href="#"><i class="fa fa-facebook"></i></a>
+                    <a href="#"><i class="fa fa-twitter"></i></a>
+                    <a href="#"><i class="fa fa-linkedin"></i></a>
+                    <a href="#"><i class="fa fa-github"></i></a>
+                </div>
+            </div>
+
+            <div class="col-md-4 content footer-center">
+                <h2>Contacts</h2>
+                <div>
+                    <i class="fa fa-map-marker"></i>
+                    <p>3 Oborishte Street,Sofia,Bulgaria</p>
+                </div>
+
+                <div>
+                    <i class="fa fa-phone"></i>
+                    <p>+359885050550</p>
+                </div>
+
+                <div>
+                    <i class="fa fa-envelope"></i>
+                    <p><a href="#">support@healthlifestyles.com</a></p>
+                </div>
+
+            </div>
+
+            <div class="col-md-4 content footer-right">
+                <p>All rights reserved</p>
+                <p>HEALTHY LIFESTYLES &copy; 2017</p>
+            </div>
+        </div>
+    </div>
+</footer>
+</body>
+</html>

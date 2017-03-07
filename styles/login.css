@@ -1,0 +1,61 @@
+
+
+.healthy {
+    margin-top:50px;
+
+}
+
+
+.green {
+    color:#96C51D;
+    text-shadow:1px 1px #000000;
+    font-size:25px;
+}
+
+.orange {
+    color:#F19914;
+    text-shadow:1px 1px #000000;
+    font-size:25px;
+}
+
+main  p {
+    font-style:italic;
+    font-size:16px;
+    font-weight:bold;
+    margin-top:20px;
+    margin-bottom:40px;
+}
+
+.forgot{
+
+    margin-bottom:0;
+    margin-top:0;
+    font-size:14px;
+}
+.forgot a {
+  text-decoration: underline;
+    color: #e61b30;
+}
+
+.log-button {
+    text-align: center;
+    margin-top:10px;
+    margin-bottom:20px;
+
+   }
+
+.log-button button {
+    color:#5e360c;
+    font-weight:bold;
+    font-size:18px;
+    border-radius: 10px;
+    background-color: rgba(255,255,255,0.7);
+    border: solid 2px #5e360c;
+    outline:none;
+}
+
+.log-button button:hover {
+    background-color: #5e360c;
+    color:rgba(255,255,255,0.7);
+    border: solid 2px rgba(255,255,255,0.7);
+}
