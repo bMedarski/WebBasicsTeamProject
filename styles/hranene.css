@@ -1,11 +1,19 @@
-main {
-    padding-top: 4%;
-        padding-bottom: 4%;
+.row{
+    display: flex;
 }
+article{
+    flex: 1;
+    padding: 10px 0;
+    margin: 10px 0;
+    padding-bottom: 35px;
+    position: relative;
 
 
-article {
-    height: 300px;
+}
+button{
+    position: absolute;
+    bottom: 10px;
+    left: 28%;
 }
 
 
