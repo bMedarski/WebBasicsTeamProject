@@ -27,7 +27,7 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li><a href="register.html" class="menu">Регистрация</a></li>
-                    <li><a href="#" class="menu">Вход</a></li>
+                    <li><a href="login.html" class="menu">Вход</a></li>
                 </ul>
             </div>
         </div>
@@ -35,51 +35,219 @@
 </header>
 
 <main class="container">
-    dhdjkfnddwe
+    <h1 class="text-center">Добре дошли!</h1>
+    <p class="text-center">Ако не разполагате с акаунт в <span class="green">HEALTHY </span> <span class="orange">LIFESTYLES </span>, можете да
+        регистрирате такъв,чрез попълване на долните полета.След като се регистрирате, ще се наложи да потвърдите своя адрес на електронна поща или телефонен номер.
+        Ще ви изпратим или имейл, или текстово съобщение, за да ви помогнем да потвърдите акаунта си.</p>
+    <h3 class="text-center">Лични данни</h3>
+    <div class="container">
+        <div class="row">
+            <form class="form-horizontal">
+
+                <div class="form-group">
+                    <label class="col-md-4 control-label personal" for="first-name">Име</label>
+                    <div class="col-md-4">
+                        <input type="text"  name="firstName" placeholder="Име" id="first-name" class="form-control" required >
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label class="col-md-4 control-label personal" for="last-name">Фамилия</label>
+                    <div class="col-md-4">
+                        <input type="text"  name="lasttName" placeholder="Фамилия" id="last-name" class="form-control" required >
+                    </div>
+                </div>
+
+
+                <div class="form-group">
+                    <label class="col-md-4 control-label personal" for="city">Град</label>
+                    <div class="col-md-4">
+                        <input type="text"  name="city" placeholder="Град" id="city" class="form-control" required >
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label class="col-md-4 control-label personal" for="address">Адрес</label>
+                    <div class="col-md-4">
+                        <input type="text"  name="address" placeholder="Адрес" id="address" class="form-control" required >
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label class="col-md-4 control-label personal" for="telephone">Телефон</label>
+                    <div class="col-md-4">
+                        <input type="text"  name="telephone" placeholder="Телефон" id="telephone" class="form-control" required >
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label class="col-md-4 control-label personal" for="age">Възраст</label>
+                    <div class="col-md-4">
+                        <input type="text"  name="age" placeholder="Възраст" id="age" class="form-control" required >
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label class="col-md-4 control-label personal" for="email">Email</label>
+                    <div class="col-md-4">
+                        <input type="text"  name="email" placeholder="Email" id="email" class="form-control" required >
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label class="col-md-4 control-label personal" for="password">Парола</label>
+                    <div class="col-md-4">
+                        <input type="password"  name="password" placeholder="Парола" id="password" class="form-control" required >
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label class="col-md-4 control-label personal" for="reset-password">Повтори Парола</label>
+                    <div class="col-md-4">
+                        <input type="password"  name="reset-password" placeholder="Повтори Парола" id="reset-password" class="form-control" required >
+                    </div>
+                </div>
+
+
+                <h3 class="text-center">Допълнителна информация</h3>
+
+                <div class="form-group">
+                    <label class="col-md-4 control-label personal" for="gender">Пол</label>
+                    <label class="custom-control custom-radio personal distance">
+                        <input id="gender" name="sex" type="radio" class="custom-control-input">
+                        <span class="custom-control-description">Mъж</span>
+                    </label>
+
+                    <label class="custom-control custom-radio personal distance">
+                        <input id="gender1" name="sex" type="radio" class="custom-control-input">
+                        <span class="custom-control-description">Жена</span>
+                    </label>
+                </div>
+
+                <div class="form-group">
+                    <label class="col-md-4 control-label personal" for="height">Височина (в см)</label>
+                    <div class="col-md-4">
+                        <input type="text" name="height" placeholder="Височина (в см)" id="height" class="form-control" required >
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label class="col-md-4 control-label personal" for="height">Тегло (в кг)</label>
+                    <div class="col-md-4">
+                        <input type="text" name="weight" placeholder="Тегло (в кг)" id="weight" class="form-control" required >
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label class="col-md-4 control-label personal" for="sport">Спортувате ли активно?</label>
+                    <label class="custom-control custom-check personal distance">
+                        <input id="sport" name="yes" type="checkbox" class="custom-control-input">
+                        <span class="custom-control-description">Да</span>
+                    </label>
+
+                    <label class="custom-control custom-check personal distance">
+                        <input id="no" name="yes" type="checkbox" class="custom-control-input">
+                        <span class="custom-control-description">Не</span>
+                    </label>
+                </div>
+
+                <div class="form-group">
+                    <label class="col-md-4 control-label personal" for="diet">Подлагали ли сте се на диета досега?</label>
+                    <label class="custom-control custom-check personal distance">
+                        <input id="diet" name="yes" type="checkbox" class="custom-control-input">
+                        <span class="custom-control-description">Да</span>
+                    </label>
+
+                    <label class="custom-control custom-check personal distance">
+                        <input id="nocheck" name="yes" type="checkbox" class="custom-control-input">
+                        <span class="custom-control-description">Не</span>
+                    </label>
+                </div>
+
+                <div class="form-group">
+                    <label class="col-md-4 control-label personal" for="alchohol">Колко често пиете алкохол?</label>
+                    <div class="col-md-4">
+                        <input type="text" name="alchohol" placeholder="Колко често пиете алкохол?" id="alchohol" class="form-control" required >
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label class="col-md-4 control-label personal" for="fav-food">Храни,които харесвате</label>
+                    <div class="col-md-4">
+                        <input type="text" name="fav-food" placeholder="Храни,които харесвате" id="fav-food" class="form-control" required >
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label class="col-md-4 control-label personal" for="no-food">Храни,които не харесвате</label>
+                    <div class="col-md-4">
+
+                        <input type="text" name="no-food" placeholder="Храни,които не харесвате" id="no-food" class="form-control" required >
+
+                    </div>
+                </div>
+
+                <div class="container reg-button">
+
+                    <button type="button" class="btn btn-default reg-button">Регистрирай се</button>
+
+                </div>
+
+            </form>
+
+
+
+        </div>
+    </div>
+
 </main>
+
 <footer class="container-fluid footer">
     <div class="container">
-    <div class="row">
+        <div class="row">
 
-        <div class="col-md-4 content footer-left">
-            <h2>About us</h2>
-            <p>Получете повече информация за нашата инициатива!</p>
-            <p>Свържете се с нас!
-            </p>
+            <div class="col-md-4 content footer-left">
+                <h2>About us</h2>
+                <p>Получете повече информация за нашата инициатива!</p>
+                <p>Свържете се с нас!
+                </p>
 
-            <div class="footer-icons">
-                <a href="#"><i class="fa fa-facebook"></i></a>
-                <a href="#"><i class="fa fa-twitter"></i></a>
-                <a href="#"><i class="fa fa-linkedin"></i></a>
-                <a href="#"><i class="fa fa-github"></i></a>
-            </div>
-        </div>
-
-        <div class="col-md-4 content footer-center">
-            <h2>Contacts</h2>
-            <div>
-                <i class="fa fa-map-marker"></i>
-                <p>3 Oborishte Street,Sofia,Bulgaria</p>
+                <div class="footer-icons">
+                    <a href="#"><i class="fa fa-facebook"></i></a>
+                    <a href="#"><i class="fa fa-twitter"></i></a>
+                    <a href="#"><i class="fa fa-linkedin"></i></a>
+                    <a href="#"><i class="fa fa-github"></i></a>
+                </div>
             </div>
 
-            <div>
-                <i class="fa fa-phone"></i>
-                <p>+359885050550</p>
+            <div class="col-md-4 content footer-center">
+                <h2>Contacts</h2>
+                <div>
+                    <i class="fa fa-map-marker"></i>
+                    <p>3 Oborishte Street,Sofia,Bulgaria</p>
+                </div>
+
+                <div>
+                    <i class="fa fa-phone"></i>
+                    <p>+359885050550</p>
+                </div>
+
+                <div>
+                    <i class="fa fa-envelope"></i>
+                    <p><a href="#">support@healthlifestyles.com</a></p>
+                </div>
+
             </div>
 
-            <div>
-                <i class="fa fa-envelope"></i>
-                <p><a href="#">support@healthlifestyles.com</a></p>
+            <div class="col-md-4 content footer-right">
+                <p>All rights reserved</p>
+                <p>HEALTHY LIFESTYLES &copy; 2017</p>
+
             </div>
-
-        </div>
-
-        <div class="col-md-4 content footer-right">
-            <p>All rights reserved</p>
-            <p>HEALTHY LIFESTYLES &copy; 2017</p>
         </div>
     </div>
-    </div>
+    <a href=""><img src="images/htmlValid.png" alt="validHtml"/></a>
+    <a href=""><img src="images/cssValid.png" alt="validCss"/></a>
 </footer>
 </body>
 </html>

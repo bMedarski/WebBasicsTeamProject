@@ -1,0 +1,104 @@
+main section {
+    background-color: rgba(255,255,255,0.7);
+    padding:20px;
+    margin-top:20px;
+    margin-bottom:20px;
+    border: solid 2px #5e360c;
+    border-radius: 10px;
+    color:#000000;
+}
+
+article {
+    text-align:center;
+}
+
+article div h2 {
+    font-size:22px;
+    font-style:italic;
+}
+
+
+section img {
+    width:250px;
+    height:250px;
+    margin:0 auto;
+    margin-top:10px;
+    margin-bottom:10px;
+    border-radius:15px;
+
+
+}
+
+.manage-team div article div p {
+    font-size:18px;
+    font-weight:bold;
+    color:#96C51D;
+
+}
+
+.manage-team .manage h1 {
+    color:#96C51D;
+    font-size:30px;
+    font-style:italic;
+}
+
+.manage-team .manage p {
+    font-size:18px;
+    font-style:italic;
+}
+
+.marketing-team .marketing h1 {
+    color:#F19914;
+    font-size:30px;
+    font-style:italic;
+}
+
+.marketing-team .marketing p {
+    font-size:18px;
+    font-style:italic;
+}
+
+.marketing-team div article div p {
+    font-size:18px;
+    font-weight:bold;
+    color:#F19914;
+}
+
+.pr-team div article div p {
+    font-size:18px;
+    font-weight:bold;
+    color:#96C51D;
+
+}
+
+.pr-team .pr h1 {
+    color:#96C51D;
+    font-size:30px;
+    font-style:italic;
+}
+
+.pr-team .pr p {
+    font-size:18px;
+    font-style:italic;
+}
+
+.mentor-team .mentor h1 {
+    color:#F19914;
+    font-size:30px;
+    font-style:italic;
+}
+
+.mentor-team .mentor p {
+    font-size:18px;
+    font-style:italic;
+}
+
+.mentor-team div article div p {
+    font-size:18px;
+    font-weight:bold;
+    color:#F19914;
+}
+
+
+
+

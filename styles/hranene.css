@@ -1,7 +1,12 @@
-main {
-    padding-top: 4%;
-        padding-bottom: 4%;
+.row{
+    display: flex;
 }
+article{
+    flex: 1;
+    padding: 10px 0;
+    margin: 10px 0;
+    padding-bottom: 35px;
+    position: relative;
 
 section p {
         width: 70%;
@@ -16,8 +21,16 @@ section p {
   margin-bottom:50px;
 }
 
+<<<<<<< HEAD
 .second p {
       margin-bottom: 67px;
+=======
+}
+button{
+    position: absolute;
+    bottom: 10px;
+    left: 28%;
+>>>>>>> 19fa82ce5b29e61852047d8f0f3bab9ed4bfe93d
 }
 
 .third p {
