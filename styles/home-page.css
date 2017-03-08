@@ -4,16 +4,23 @@ header .info-header img {
 }
  header .info-header h1 {
     font-style:italic;
-    text-shadow:2px 2px #ffffff;
+     font-weight: bold;
+    
     font-size:35px;
     margin-top:20px;
     margin-bottom:10px;
 
 }
 
+.info-header{
+    margin-top:6%;
+    width: 70%;
+        margin: 75px auto 0 auto;
+}
+
 header .info-header p {
     font-style:italic;
-    font-size:16px;
+    font-size: 20px;
     font-weight:bold;
     margin-top:10px;
 }
@@ -60,18 +67,47 @@ main .buttons .row {
 
 
 .design {
-    text-decoration: none;
-    font-size:20px;
-    color:#000000;
-    font-style:italic;
-    padding:15px 75px;
-    margin-left:20px;
-    background-color:#96C51D;
-    border-radius:10px;
-    border:solid 2px #F19914;
+       text-decoration: none;
+    font-size: 20px;
+    color: #000000;
+    font-style: italic;
+    padding: 15px 75px;
+    margin-left: 20px;
+    background-color: #96C51D;
+    border-radius: 10px;
+    /* border: solid 2px #F19914; */
+    border-style: none;
+    box-shadow: 6px 6px 35px -3px rgba(0,0,0,0.75);
 }
 
 .design:hover {
     background-color:#F19914;
-    border:solid 2px #96C51D;
+    
+}
+
+.navbar {
+        background-color: rgba(125,125,125,0.8);
+    border-bottom: 2px solid #5e360c;
+    margin-bottom: 0;
+    position: fixed;
+    width: 100%;
+}
+
+.header-img{
+   background-image:  linear-gradient( rgba(230,230,255,1), rgba(46,67,102,.5) ),url(C:/Users/Daniel/Documents/GitHub/WebBasicsTeamProject/images/header-img.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+#circle {
+       width: 200px;
+    height: 200px;
+    background-color: transparent;
+    border-radius: 50%;
+    border: 2px white solid;
+    margin-left: 20px;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
 }
