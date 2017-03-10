@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo+Bhaina|Raleway');
+
 header .info-header img {
     margin:0 auto;
     border-radius:30px;
@@ -16,6 +18,7 @@ header .info-header img {
     margin-top:6%;
     width: 70%;
         margin: 75px auto 0 auto;
+    font-family: 'Raleway', sans-serif;
 }
 
 header .info-header p {
@@ -344,4 +347,59 @@ main {
 
 footer {
     border-top: 2px #373D3F solid;
+}
+
+
+
+
+
+
+
+#circle {
+    text-align: center;
+    color: #fff;
+    border: 3px solid gray;
+    height: 200px;
+    width: 200px;
+    border-radius: 128px;
+    display: table-cell;
+    vertical-align: middle;
+    transition: background 0.3s ease-in-out;
+}
+#circle:hover{
+        background: rgba(0,0,0,0.3);
+}
+.circle-holder{
+    
+    width: 100%;
+    text-align: center;
+    margin-top: 7%;
+/*    font-family: 'Baloo Bhaina', cursive;*/
+
+
+    
+}
+#circle span{
+        font-weight: 700;
+    font-size: 36px;
+    text-align: center;
+    display: block;
+    vertical-align: middle;
+
+}
+.circle-counter-holder{
+    
+    padding-right: 25px;
+    display: inline-block;
+}
+#smalltext{
+    color: #fff;
+    width: 200px;
+    font-size: 18px;
+    text-align: center;
+    display: block;
+    vertical-align: middle;
+}
+#bottom-text{
+    color: #ffffff;
 }
