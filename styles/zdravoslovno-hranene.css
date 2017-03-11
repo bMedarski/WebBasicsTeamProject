@@ -70,6 +70,6 @@ background: linear-gradient( rgba(255,255,255,.4), rgba(255,255,255,.4) ),url(".
 }
 
 .img-responsive {
-    widows: 200px;
+    width: 200px;
     height: 200px;
 }
