@@ -39,8 +39,8 @@ main article .info img {
 }
 
 main article .info {
-
     text-align: center;
+    height:400px;
 
 }
 
@@ -75,3 +75,4 @@ main .buttons .row {
     background-color:#F19914;
     border:solid 2px #96C51D;
 }
+
