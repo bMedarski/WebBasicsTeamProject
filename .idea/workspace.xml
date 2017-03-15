@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1fe03e2d-2b9d-483e-b771-844545c317fe" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hranene.html" afterPath="$PROJECT_DIR$/hranene.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/login.html" afterPath="$PROJECT_DIR$/login.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/register.html" afterPath="$PROJECT_DIR$/register.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styles/home-page.css" afterPath="$PROJECT_DIR$/styles/home-page.css" />
-    </list>
+    <list default="true" id="1fe03e2d-2b9d-483e-b771-844545c317fe" name="Default" comment="" />
     <ignored path="WebBasicsTeamProject.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -293,12 +287,12 @@
       <workItem from="1488921507544" duration="384000" />
       <workItem from="1488923996152" duration="3223000" />
       <workItem from="1488998750016" duration="7222000" />
-      <workItem from="1489615875785" duration="2052000" />
+      <workItem from="1489615875785" duration="2111000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37200000" />
+    <option name="totallyTimeSpent" value="37259000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
