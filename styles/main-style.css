@@ -5,6 +5,7 @@
     margin: 0;
     padding: 0;
     word-wrap: break-word;
+    box-sizing: border-box;
 }
 
 body{
@@ -154,12 +155,17 @@ footer .content {
     padding-right: 20px;
     
  }
-aside{
-    padding: 20px 0;
-}
 aside>article{
     margin: 15px auto;
 }
 .footer>.container{
     text-align: left
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #eee;
+}
+@media (max-width: 767px) {
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+        color: #eee;
+    }
 }

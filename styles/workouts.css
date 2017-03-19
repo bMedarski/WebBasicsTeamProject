@@ -1,20 +1,20 @@
 @import url('https://fonts.googleapis.com/css?family=PT+Sans');
 
 main{
-    width: 680px;
-    margin: 0 auto;
+    /*width: 680px;*/
+    margin: 0 0;
     text-align: center;
     color: #5e360c;
     background-color: rgba(255,255,255,0.6);
     padding: 10px 20px;
-    border-left: 1px solid #5e360c;
-    border-right: 1px solid #5e360c;
+    /*border-left: 1px solid #5e360c;*/
+    /*border-right: 1px solid #5e360c;*/
     display: flex;
     flex-flow: row;
 }
-section{
-    border-right: 1px solid #5e360c;
-}
+/*section{*/
+    /*border-right: 1px solid #5e360c;*/
+/*}*/
 .silovi>p,.aerobni>p, .kardio>p{
     color: #5e360c;
     font-size: 16px;
@@ -113,5 +113,23 @@ td,th,tr{
 .table>thead>tr>th{
     border: 1px solid #5e360c;
 }
+@media screen and (max-width: 640px) {
+    html{
+        margin: 0;
+        width: 100%;
+    }
+    .article-img{
+        float: none;
+        width: 80%;
+        margin-bottom: 5px;
+        height: 100%;
+    }
+    .kardio h3, .kardio h4,.aerobni h3, .aerobni h4,.silovi h3, .silovi h4{
+        margin-top: 5px;
+        text-align: center;
+    }
+    .silovi>h1, .aerobni>h1, .kardio>h1{
+        margin: 5px 5px;
+    }
 
-
+}
