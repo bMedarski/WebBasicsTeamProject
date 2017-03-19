@@ -422,4 +422,9 @@ footer {
         display: block;
         width: 100%;
     }
+    
+    .clicable {
+        display: block;
+        width: 100%;
+    }
 }
