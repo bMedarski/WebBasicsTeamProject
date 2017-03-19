@@ -1,3 +1,5 @@
+
+
 .green {
     color: #96C51D;
     text-shadow: 1px 1px #000000;
@@ -83,3 +85,24 @@ input[type="button"] {
     color:rgba(255,255,255,0.7);
     border: solid 2px rgba(255,255,255,0.7);
 }
+
+.partners {
+    text-align:center;
+
+
+}
+.partners-list h2 {
+    font-size:20px;
+    font-style:italic;
+    font-weight:bold;
+    color:#5e360c;
+}
+
+.partners-list ul li a {
+
+    color:#5e360c;
+    font-size:16px;
+}
+
+
+
