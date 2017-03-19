@@ -40,7 +40,7 @@ main article .info img {
 
 main article .info {
     text-align: center;
-    height:400px;
+    min-height:400px;
 
 }
 
@@ -76,21 +76,5 @@ main .buttons .row {
     border:solid 2px #96C51D;
 }
 
-<<<<<<< HEAD
     
-    .circle-holder {
-        display: none;
-    }
-    
-    .articles-first, .articles-second, .articles-third, .articles-fourth, .articles-fifth, .articles-sixth{
-        display: block;
-        width: 100%;
-    }
-    
-    .clicable {
-        display: block;
-        width: 100%;
-    }
-}
-=======
->>>>>>> b6b1863cb2c32d6983e716fe3ef66fc611a15a60
+

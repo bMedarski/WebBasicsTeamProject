@@ -1,60 +1,84 @@
-
-
-.healthy {
-    margin-top:50px;
-
-}
-
-
 .green {
-    color:#96C51D;
-    text-shadow:1px 1px #000000;
-    font-size:25px;
+    color: #96C51D;
+    text-shadow: 1px 1px #000000;
+    font-size: 25px;
 }
 
 .orange {
-    color:#F19914;
-    text-shadow:1px 1px #000000;
-    font-size:25px;
+    color: #F19914;
+    text-shadow: 1px 1px #000000;
+    font-size: 25px;
 }
 
-main  p {
-    font-style:italic;
-    font-size:16px;
-    font-weight:bold;
-    margin-top:20px;
-    margin-bottom:40px;
+main header {
+    text-align: center;
+
+}
+main header p {
+    font-style: italic;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 20px;
+    text-align: center;
 }
 
-.forgot{
-
-    margin-bottom:0;
-    margin-top:0;
-    font-size:14px;
+.forgot {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-size: 14px;
+    text-align: center;
 }
+
 .forgot a {
-  text-decoration: underline;
+    text-decoration: underline;
     color: #e61b30;
 }
 
-.log-button {
-    text-align: center;
-    margin-top:10px;
-    margin-bottom:20px;
+.login {
+    margin:0 auto;
+    max-width:500px;
+}
 
-   }
-
-.log-button button {
+.login-form div label {
+    font-size:16px;
+    margin-bottom:5px;
     color:#5e360c;
+}
+
+.login-form {
+    box-sizing:border-box;
+    padding-top:15px;
+    padding-bottom:15px;
+    margin:20px auto;
+    text-align: center;
+
+}
+
+input[type="text"],
+input[type="password"] {
+    border-radius: 10px;
+    background-color: rgba(255,255,255,0.7);
+    border: solid 1px #5e360c;
+    margin:5px auto;
+    width: 70%;
+    outline:none;
+    padding-left:10px;
+
+}
+
+input[type="button"] {
+    color:#5e360c;
+    padding:5px 25px;
     font-weight:bold;
     font-size:18px;
     border-radius: 10px;
     background-color: rgba(255,255,255,0.7);
     border: solid 2px #5e360c;
     outline:none;
+
 }
 
-.log-button button:hover {
+.login-form input[type="button"]:hover {
     background-color: #5e360c;
     color:rgba(255,255,255,0.7);
     border: solid 2px rgba(255,255,255,0.7);

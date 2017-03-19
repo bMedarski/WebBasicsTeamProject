@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="styles/main-style.css">
-    <link rel="stylesheet" href="styles/register.css">
     <link rel="stylesheet" href="styles/login.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
@@ -35,42 +34,36 @@
     </nav>
 </header>
 
-<main class="container">
+<main>
 
-    <p class="text-center healthy"><span class="green">HEALTHY </span> <span class="orange">LIFESTYLES </span></p>
-    <p class="text-center ">За да влезете във Вашия профил , моля попълнете Вашия email и Вашата парола.</p>
+    <header>
+        <p><span class="green">HEALTHY </span> <span class="orange">LIFESTYLES </span></p>
+        <p>За да влезете във Вашия профил , моля попълнете Вашия email и Вашата парола.</p>
+    </header>
 
-    <div class="container">
-        <div class="row">
-            <form class="form-horizontal">
+    <div class="login">
 
-                <div class="form-group">
-                    <label class="col-sm-4 control-label personal" for="email">Email</label>
-                    <div class="col-sm-4">
-                        <input type="text"  name="email" placeholder="Email" id="email" class="form-control" required >
-                    </div>
-                </div>
-
-                <div class="form-group">
-                    <label class="col-sm-4 control-label personal" for="password">Парола</label>
-                    <div class="col-sm-4">
-                        <input type="password"  name="password" placeholder="Парола" id="password" class="form-control" required >
-                    </div>
-                </div>
-
-                    <p class=" text-center forgot"><a href="#">Забравена парола?</a></p>
+        <div class="login-form">
+            <div class="email">
 
 
-                <div class="container log-button">
-
-                    <button type="button" class="btn btn-default log-button">Влез</button>
-
-                </div>
-               </form>
-
-
+                <label>Email:</label>
+                <input type="text"  name="email" placeholder="Email" id="email" class="form-control" required>
             </div>
+
+            <div class="password">
+
+
+                <label>Парола:</label>
+                <input type="password"  name="password" placeholder="Парола" id="password" class="form-control" required>
+            </div>
+            <p class="forgot"><a href="#">Забравена парола?</a></p>
+
+            <input type="button" value="Влез" class="login-button"/>
         </div>
+    </div>
+
+
 </main>
 
 <footer class="container-fluid footer">
