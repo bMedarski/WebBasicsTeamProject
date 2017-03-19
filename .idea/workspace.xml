@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="1fe03e2d-2b9d-483e-b771-844545c317fe" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
@@ -16,6 +17,9 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/team.html" afterPath="$PROJECT_DIR$/team.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zdravoslovno-hranene.html" afterPath="$PROJECT_DIR$/zdravoslovno-hranene.html" />
     </list>
+=======
+    <list default="true" id="1fe03e2d-2b9d-483e-b771-844545c317fe" name="Default" comment="" />
+>>>>>>> b6b1863cb2c32d6983e716fe3ef66fc611a15a60
     <ignored path="WebBasicsTeamProject.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -34,6 +38,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+<<<<<<< HEAD
       <file leaf-file-name="gain-mass-eat.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gain-mass-eat.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -49,36 +54,77 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="509">
               <caret line="93" column="0" lean-forward="true" selection-start-line="93" selection-start-column="0" selection-end-line="93" selection-end-column="0" />
+=======
+      <file leaf-file-name="register.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/styles/register.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="558">
+              <caret line="70" column="0" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
+>>>>>>> b6b1863cb2c32d6983e716fe3ef66fc611a15a60
               <folding />
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="zdravoslovno-hranene.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/styles/zdravoslovno-hranene.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="577">
               <caret line="91" column="1" lean-forward="false" selection-start-line="91" selection-start-column="1" selection-end-line="91" selection-end-column="1" />
+=======
+      <file leaf-file-name="register.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/register.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="869">
+              <caret line="182" column="38" selection-start-line="182" selection-start-column="38" selection-end-line="182" selection-end-column="38" />
+>>>>>>> b6b1863cb2c32d6983e716fe3ef66fc611a15a60
               <folding />
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="otslabvane.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/otslabvane.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="359">
               <caret line="224" column="25" lean-forward="true" selection-start-line="224" selection-start-column="25" selection-end-line="224" selection-end-column="25" />
+=======
+      <file leaf-file-name="team.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/team.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1682">
+              <caret line="172" column="28" selection-start-line="172" selection-start-column="28" selection-end-line="172" selection-end-column="28" />
+>>>>>>> b6b1863cb2c32d6983e716fe3ef66fc611a15a60
               <folding />
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="otslabvane.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/styles/otslabvane.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="509">
               <caret line="100" column="25" lean-forward="false" selection-start-line="100" selection-start-column="25" selection-end-line="100" selection-end-column="25" />
+=======
+      <file leaf-file-name="login.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/login.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2091">
+              <caret line="123" column="0" selection-start-line="123" selection-start-column="0" selection-end-line="123" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="home-page.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/styles/home-page.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="424">
+              <caret line="78" column="0" selection-start-line="78" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
+>>>>>>> b6b1863cb2c32d6983e716fe3ef66fc611a15a60
               <folding />
             </state>
           </provider>
@@ -107,17 +153,20 @@
         <option value="$PROJECT_DIR$/home-page.css" />
         <option value="$PROJECT_DIR$/styles/workouts.css" />
         <option value="$PROJECT_DIR$/carousel.html" />
-        <option value="$PROJECT_DIR$/styles/home-page.css" />
         <option value="$PROJECT_DIR$/footer-distributed-with-address-and-phones.html" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/styles/hranene.css" />
         <option value="$PROJECT_DIR$/styles/register.css" />
         <option value="$PROJECT_DIR$/styles/login.css" />
         <option value="$PROJECT_DIR$/styles/main-style.css" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/register.html" />
         <option value="$PROJECT_DIR$/login.html" />
+=======
+>>>>>>> b6b1863cb2c32d6983e716fe3ef66fc611a15a60
         <option value="$PROJECT_DIR$/styles/team.html" />
         <option value="$PROJECT_DIR$/silovi.html" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/styles/team.css" />
         <option value="$PROJECT_DIR$/aerobni.html" />
         <option value="$PROJECT_DIR$/home-page.html" />
@@ -129,6 +178,16 @@
         <option value="$PROJECT_DIR$/styles/zdravoslovno-hranene.css" />
         <option value="$PROJECT_DIR$/styles/otslabvane.css" />
         <option value="$PROJECT_DIR$/styles/gain-mass.css" />
+=======
+        <option value="$PROJECT_DIR$/kardio.html" />
+        <option value="$PROJECT_DIR$/team.html" />
+        <option value="$PROJECT_DIR$/styles/team.css" />
+        <option value="$PROJECT_DIR$/home-page.html" />
+        <option value="$PROJECT_DIR$/hranene.html" />
+        <option value="$PROJECT_DIR$/register.html" />
+        <option value="$PROJECT_DIR$/styles/home-page.css" />
+        <option value="$PROJECT_DIR$/login.html" />
+>>>>>>> b6b1863cb2c32d6983e716fe3ef66fc611a15a60
       </list>
     </option>
   </component>
@@ -174,6 +233,7 @@
       </pane>
       <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -281,12 +341,20 @@
       <workItem from="1488921507544" duration="384000" />
       <workItem from="1488923996152" duration="3223000" />
       <workItem from="1488998750016" duration="7222000" />
+<<<<<<< HEAD
       <workItem from="1489915446051" duration="5119000" />
+=======
+      <workItem from="1489615875785" duration="2111000" />
+>>>>>>> b6b1863cb2c32d6983e716fe3ef66fc611a15a60
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="40267000" />
+=======
+    <option name="totallyTimeSpent" value="37259000" />
+>>>>>>> b6b1863cb2c32d6983e716fe3ef66fc611a15a60
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="1378" height="775" extended-state="1" />
@@ -349,6 +417,7 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/table-kilokalorii.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -356,6 +425,58 @@
           <folding>
             <element signature="n#style#0;n#rect#0;n#svg#0;n#a#0;n#article#0;n#aside#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
+=======
+    <entry file="file://$PROJECT_DIR$/aerobni.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="285" column="10" selection-start-line="285" selection-start-column="10" selection-end-line="285" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kardio.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="208" column="10" selection-start-line="208" selection-start-column="10" selection-end-line="208" selection-end-column="10" />
+          <folding>
+            <element signature="n#style#0;n#rect#0;n#svg#0;n#a#0;n#article#0;n#aside#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#polygon#0;n#svg#0;n#a#0;n#article#0;n#aside#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#line#0;n#svg#0;n#a#0;n#article#0;n#aside#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#line#1;n#svg#0;n#a#0;n#article#0;n#aside#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ellipse#0;n#svg#0;n#a#0;n#article#0;n#aside#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#line#2;n#svg#0;n#a#0;n#article#0;n#aside#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ellipse#1;n#svg#0;n#a#0;n#article#0;n#aside#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#line#3;n#svg#0;n#a#0;n#article#0;n#aside#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#line#4;n#svg#0;n#a#0;n#article#0;n#aside#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#text#0;n#svg#0;n#a#0;n#article#0;n#aside#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#text#1;n#svg#0;n#a#0;n#article#0;n#aside#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#text#2;n#svg#0;n#a#0;n#article#0;n#aside#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#rect#0;n#svg#0;n#a#0;n#article#1;n#aside#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#polygon#0;n#svg#0;n#a#0;n#article#1;n#aside#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#rect#1;n#svg#0;n#a#0;n#article#1;n#aside#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#rect#2;n#svg#0;n#a#0;n#article#1;n#aside#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#line#0;n#svg#0;n#a#0;n#article#1;n#aside#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#line#1;n#svg#0;n#a#0;n#article#1;n#aside#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#polygon#1;n#svg#0;n#a#0;n#article#1;n#aside#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#rect#3;n#svg#0;n#a#0;n#article#1;n#aside#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#rect#4;n#svg#0;n#a#0;n#article#1;n#aside#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#rect#5;n#svg#0;n#a#0;n#article#1;n#aside#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/silovi.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="336" column="10" selection-start-line="336" selection-start-column="10" selection-end-line="336" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/table-kilokalorii.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+>>>>>>> b6b1863cb2c32d6983e716fe3ef66fc611a15a60
         </state>
       </provider>
     </entry>
@@ -392,8 +513,15 @@
     <entry file="file://$PROJECT_DIR$/home-page.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
+<<<<<<< HEAD
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+=======
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#6451#6457#0" expanded="true" />
+          </folding>
+>>>>>>> b6b1863cb2c32d6983e716fe3ef66fc611a15a60
         </state>
       </provider>
     </entry>
@@ -446,17 +574,25 @@
     <entry file="file://$PROJECT_DIR$/silovi.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
+<<<<<<< HEAD
           <caret line="336" column="9" lean-forward="false" selection-start-line="336" selection-start-column="9" selection-end-line="336" selection-end-column="9" />
+=======
+          <caret line="336" column="9" selection-start-line="336" selection-start-column="9" selection-end-line="336" selection-end-column="9" />
+>>>>>>> b6b1863cb2c32d6983e716fe3ef66fc611a15a60
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/table-kilokalorii.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
+<<<<<<< HEAD
           <caret line="1644" column="0" lean-forward="false" selection-start-line="1644" selection-start-column="0" selection-end-line="1644" selection-end-column="0" />
           <folding>
             <element signature="n#style#0;n#rect#0;n#svg#0;n#a#0;n#article#0;n#aside#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
+=======
+          <caret line="1644" column="0" selection-start-line="1644" selection-start-column="0" selection-end-line="1644" selection-end-column="0" />
+>>>>>>> b6b1863cb2c32d6983e716fe3ef66fc611a15a60
         </state>
       </provider>
     </entry>
@@ -470,8 +606,15 @@
     <entry file="file://$PROJECT_DIR$/home-page.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
+<<<<<<< HEAD
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+=======
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#6451#6457#0" expanded="true" />
+          </folding>
+>>>>>>> b6b1863cb2c32d6983e716fe3ef66fc611a15a60
         </state>
       </provider>
     </entry>
@@ -569,10 +712,14 @@
     <entry file="file://$PROJECT_DIR$/table-kilokalorii.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
+<<<<<<< HEAD
           <caret line="1581" column="98" lean-forward="false" selection-start-line="1581" selection-start-column="98" selection-end-line="1581" selection-end-column="98" />
           <folding>
             <element signature="n#style#0;n#rect#0;n#svg#0;n#a#0;n#article#0;n#aside#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
+=======
+          <caret line="1581" column="98" selection-start-line="1581" selection-start-column="98" selection-end-line="1581" selection-end-column="98" />
+>>>>>>> b6b1863cb2c32d6983e716fe3ef66fc611a15a60
         </state>
       </provider>
     </entry>
@@ -587,7 +734,11 @@
     <entry file="file://$PROJECT_DIR$/silovi.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
+<<<<<<< HEAD
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+=======
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+>>>>>>> b6b1863cb2c32d6983e716fe3ef66fc611a15a60
         </state>
       </provider>
     </entry>
@@ -631,6 +782,7 @@
         <state />
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/styles/hranene.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -638,6 +790,8 @@
         </state>
       </provider>
     </entry>
+=======
+>>>>>>> b6b1863cb2c32d6983e716fe3ef66fc611a15a60
     <entry file="file://$PROJECT_DIR$/styles/main-style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="969">
@@ -674,6 +828,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/styles/register.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="243">
@@ -703,11 +858,19 @@
         <state relative-caret-position="524">
           <caret line="249" column="66" lean-forward="false" selection-start-line="248" selection-start-column="3" selection-end-line="249" selection-end-column="66" />
           <folding />
+=======
+    <entry file="file://$PROJECT_DIR$/styles/team.html" />
+    <entry file="file://$PROJECT_DIR$/otslabvane.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+>>>>>>> b6b1863cb2c32d6983e716fe3ef66fc611a15a60
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/aerobni.html">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="260">
           <caret line="47" column="52" lean-forward="false" selection-start-line="47" selection-start-column="52" selection-end-line="47" selection-end-column="52" />
           <folding />
@@ -737,13 +900,22 @@
           <folding>
             <marker date="1489915579952" expanded="false" signature="6477:6483" ph="©" />
           </folding>
+=======
+        <state relative-caret-position="201">
+          <caret line="28" column="38" selection-start-line="28" selection-start-column="38" selection-end-line="28" selection-end-column="38" />
+>>>>>>> b6b1863cb2c32d6983e716fe3ef66fc611a15a60
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/kardio.html">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="524">
           <caret line="53" column="21" lean-forward="true" selection-start-line="42" selection-start-column="16" selection-end-line="53" selection-end-column="21" />
+=======
+        <state relative-caret-position="476">
+          <caret line="28" column="38" selection-start-line="28" selection-start-column="38" selection-end-line="28" selection-end-column="38" />
+>>>>>>> b6b1863cb2c32d6983e716fe3ef66fc611a15a60
           <folding>
             <element signature="n#style#0;n#rect#0;n#svg#0;n#a#0;n#article#0;n#aside#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#polygon#0;n#svg#0;n#a#0;n#article#0;n#aside#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -771,60 +943,161 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/login.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1955">
           <caret line="119" column="66" lean-forward="false" selection-start-line="119" selection-start-column="66" selection-end-line="119" selection-end-column="66" />
+=======
+    <entry file="file://$PROJECT_DIR$/table-kilokalorii.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="28" column="38" selection-start-line="28" selection-start-column="38" selection-end-line="28" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/41733451-business-people-and-office-concept-happy-businessman-in-suit-sitting-in-chair-over-office-room-backg-Stock-Photo.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aerobni.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="36" column="8" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="8" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/table-kilokalorii.html">
+    <entry file="file://$PROJECT_DIR$/styles/hranene.css">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-35">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+>>>>>>> b6b1863cb2c32d6983e716fe3ef66fc611a15a60
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/home-page.html">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="532">
           <caret line="53" column="21" lean-forward="false" selection-start-line="53" selection-start-column="21" selection-end-line="53" selection-end-column="21" />
           <folding>
             <element signature="n#style#0;n#rect#0;n#svg#0;n#a#0;n#article#0;n#aside#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+=======
+        <state relative-caret-position="187">
+          <caret line="53" column="79" selection-start-line="53" selection-start-column="79" selection-end-line="53" selection-end-column="79" />
+          <folding>
+            <element signature="e#6451#6457#0" expanded="true" />
+>>>>>>> b6b1863cb2c32d6983e716fe3ef66fc611a15a60
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/otslabvane.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="359">
           <caret line="224" column="25" lean-forward="true" selection-start-line="224" selection-start-column="25" selection-end-line="224" selection-end-column="25" />
+=======
+    <entry file="file://$PROJECT_DIR$/styles/workouts.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="23" column="1" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+>>>>>>> b6b1863cb2c32d6983e716fe3ef66fc611a15a60
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/styles/zdravoslovno-hranene.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="577">
           <caret line="91" column="1" lean-forward="false" selection-start-line="91" selection-start-column="1" selection-end-line="91" selection-end-column="1" />
+=======
+    <entry file="file://$PROJECT_DIR$/styles/team.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="23" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
+>>>>>>> b6b1863cb2c32d6983e716fe3ef66fc611a15a60
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/styles/otslabvane.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="509">
           <caret line="100" column="25" lean-forward="false" selection-start-line="100" selection-start-column="25" selection-end-line="100" selection-end-column="25" />
+=======
+    <entry file="file://$PROJECT_DIR$/styles/zdravoslovno-hranene.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/hranene.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-782">
+          <caret line="14" column="49" selection-start-line="14" selection-start-column="49" selection-end-line="14" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/styles/register.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="558">
+          <caret line="70" column="0" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/styles/home-page.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="424">
+          <caret line="78" column="0" selection-start-line="78" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/register.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="869">
+          <caret line="182" column="38" selection-start-line="182" selection-start-column="38" selection-end-line="182" selection-end-column="38" />
+>>>>>>> b6b1863cb2c32d6983e716fe3ef66fc611a15a60
+          <folding />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/gain-mass-eat.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-3434">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+=======
+    <entry file="file://$PROJECT_DIR$/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2091">
+          <caret line="123" column="0" selection-start-line="123" selection-start-column="0" selection-end-line="123" selection-end-column="0" />
+>>>>>>> b6b1863cb2c32d6983e716fe3ef66fc611a15a60
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/styles/gain-mass.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="509">
           <caret line="93" column="0" lean-forward="true" selection-start-line="93" selection-start-column="0" selection-end-line="93" selection-end-column="0" />
+=======
+    <entry file="file://$PROJECT_DIR$/team.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1682">
+          <caret line="172" column="28" selection-start-line="172" selection-start-column="28" selection-end-line="172" selection-end-column="28" />
+>>>>>>> b6b1863cb2c32d6983e716fe3ef66fc611a15a60
           <folding />
         </state>
       </provider>
