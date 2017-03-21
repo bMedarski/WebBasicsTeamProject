@@ -1,44 +1,164 @@
-/*
-.row{
-    display: flex;
-}
-article{
-    flex: 1;
-    padding: 10px 0;
-    margin: 10px 0;
-    padding-bottom: 35px;
-    position: relative;
-
-section p {
-        width: 70%;
-    margin: 0 auto;
+*{
+    margin: 0;
+    padding: 0;
     font-size: 20px;
-        margin-bottom: 20px;
+}
+main{
+    background: linear-gradient( rgba(255,255,255,.4), rgba(255,255,255,.4) ),url("../images/wood_floor_by_gnrbishop.jpg") repeat repeat;
+
+}
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 150px;
+    background-image: linear-gradient( rgba(46,67,102,.8), rgba(46,67,102,.8) ),url("../images/hardcore.jpg");
+    background-size: cover;
+    opacity: 0.75;
+}
+
+.header h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0;
+    font-size: 50px;
+    text-shadow: 2px 1px 3px rgba(255, 255, 255, 1);
 }
 
 
-.first p {
-  margin-bottom:50px;
+.text {
+    margin: 20px auto 0 auto;
+    width: 70%;
+    padding-bottom: 10px;
+
 }
 
-<<<<<<< HEAD
-.second p {
-      margin-bottom: 67px;
-=======
+.text h1{
+    text-align: center;
+    padding-bottom: 15px;
 }
-button{
-    position: absolute;
-    bottom: 10px;
-    left: 28%;
->>>>>>> 19fa82ce5b29e61852047d8f0f3bab9ed4bfe93d
+.text p {
+    font-size: 20px;
+    opacity: 1;
 }
 
-.third p {
-      margin-bottom: 15px;
+.img-holder{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 150px;
+    background-image: linear-gradient( rgba(255,255,255,.4), rgba(255,255,255,.4) ),url(../images/salads.png);
+    background-size: cover;
+    opacity: 0.75;
 }
 
-.fourth p {
-    margin-bottom: 39px;
+.img-holder h1{
+    color: black;
+    font-size: 40px;
+    text-shadow: 3px 3px 3px dimgrey;
 }
 
-*/
+
+.food-text h1{
+    text-align: center
+}
+
+.img-responsive {
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+}
+
+span{
+    font-size:25px;
+    letter-spacing: 3px;
+}
+.food {
+    margin-left: 50px;
+}
+
+.article-holder{
+    height: 420px;
+    overflow:hidden ;
+}
+
+.info {
+    margin: 40px 0 50px 0;
+    text-align: center;
+}
+.info p, .info h2{
+    text-align: left;
+}
+#main-list{
+    list-style-type: none;
+}
+#main-list>li>p{
+    margin: 30px 0;
+}
+#main-list span{
+    font-size:25px;
+    letter-spacing: 3px;
+    float: left;
+}
+.design {
+    text-decoration: none;
+    color:#000000;
+    font-style:italic;
+    background-color:#96C51D;
+    border:solid 2px #F19914;
+}
+
+.design:hover {
+    background-color:#F19914;
+    border:solid 2px #96C51D;
+}
+@media screen and (max-width: 1200px) {
+    .article-holder {
+        height: 460px;
+        overflow: inherit;
+    }
+}
+@media screen and (max-width: 1024px) {
+    #main-list>li>p{
+        margin: 20px 0;
+    }
+    .text{
+        padding-bottom: 0;
+    }
+    .info>.article-holder>p{
+        text-align: justify;
+    }
+    .info h2{
+        text-align: center;
+    }
+
+}
+@media screen and (max-width: 991px) {
+    #main-list>li>p{
+        margin: 20px 0;
+    }
+    .text{
+        padding-bottom: 0;
+    }
+    .article-holder {
+        height: 280px;
+        overflow: inherit;
+    }
+    .info {
+        margin: 20px 0 20px 0;
+    }
+    .img-responsive {
+        width: 350px;
+        height: 350px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .article-holder {
+        height: auto;
+        overflow: inherit;
+    }
+}
